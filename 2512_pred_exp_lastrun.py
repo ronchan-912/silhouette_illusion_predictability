@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.4),
-    on 月  1/ 5 15:57:57 2026
+    on 月  1/ 5 17:39:46 2026
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -55,7 +55,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='/Users/rondenkouhei/study_multiperception/psychopy/experiment_exp2_online/2512_pred_exp_lastrun.py',
+    originPath='/Users/rondenkouhei/study_multiperception/psychopy/experiment_github_pages/2512_pred_exp_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -203,12 +203,13 @@ fixation = visual.ShapeStim(
 # Initialize components for Routine "breakt"
 breaktClock = core.Clock()
 key_resp_breaktime_2 = keyboard.Keyboard()
+key_break_break = keyboard.Keyboard()
 polygon = visual.Rect(
     win=win, name='polygon',units='pix', 
     width=[1.0, 1.0][0], height=[1.0, 1.0][1],
     ori=0.0, pos=[0,0], anchor='center',
     lineWidth=1.0,     colorSpace='rgb',  lineColor=[0.8824, 0.8039, 0.0980], fillColor=[0.8824, 0.8039, 0.0980],
-    opacity=None, depth=-1.0, interpolate=True)
+    opacity=None, depth=-2.0, interpolate=True)
 img_inst4 = visual.ImageStim(
     win=win,
     name='img_inst4', units='pix', 
@@ -216,14 +217,14 @@ img_inst4 = visual.ImageStim(
     ori=0.0, pos=(0, 0), size=(1000, 352),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-2.0)
+    texRes=128.0, interpolate=True, depth=-3.0)
 text_shintyoku = visual.TextStim(win=win, name='text_shintyoku',
     text='',
     font='Open Sans',
     units='norm', pos=(0.9, 0.9), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
-    depth=-3.0);
+    depth=-4.0);
 
 # Initialize components for Routine "catch_trial"
 catch_trialClock = core.Clock()
@@ -238,12 +239,13 @@ fixation_catch = visual.ShapeStim(
 # Initialize components for Routine "breakt"
 breaktClock = core.Clock()
 key_resp_breaktime_2 = keyboard.Keyboard()
+key_break_break = keyboard.Keyboard()
 polygon = visual.Rect(
     win=win, name='polygon',units='pix', 
     width=[1.0, 1.0][0], height=[1.0, 1.0][1],
     ori=0.0, pos=[0,0], anchor='center',
     lineWidth=1.0,     colorSpace='rgb',  lineColor=[0.8824, 0.8039, 0.0980], fillColor=[0.8824, 0.8039, 0.0980],
-    opacity=None, depth=-1.0, interpolate=True)
+    opacity=None, depth=-2.0, interpolate=True)
 img_inst4 = visual.ImageStim(
     win=win,
     name='img_inst4', units='pix', 
@@ -251,14 +253,14 @@ img_inst4 = visual.ImageStim(
     ori=0.0, pos=(0, 0), size=(1000, 352),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-2.0)
+    texRes=128.0, interpolate=True, depth=-3.0)
 text_shintyoku = visual.TextStim(win=win, name='text_shintyoku',
     text='',
     font='Open Sans',
     units='norm', pos=(0.9, 0.9), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
-    depth=-3.0);
+    depth=-4.0);
 
 # Initialize components for Routine "trial"
 trialClock = core.Clock()
@@ -277,12 +279,13 @@ fixation = visual.ShapeStim(
 # Initialize components for Routine "breakt"
 breaktClock = core.Clock()
 key_resp_breaktime_2 = keyboard.Keyboard()
+key_break_break = keyboard.Keyboard()
 polygon = visual.Rect(
     win=win, name='polygon',units='pix', 
     width=[1.0, 1.0][0], height=[1.0, 1.0][1],
     ori=0.0, pos=[0,0], anchor='center',
     lineWidth=1.0,     colorSpace='rgb',  lineColor=[0.8824, 0.8039, 0.0980], fillColor=[0.8824, 0.8039, 0.0980],
-    opacity=None, depth=-1.0, interpolate=True)
+    opacity=None, depth=-2.0, interpolate=True)
 img_inst4 = visual.ImageStim(
     win=win,
     name='img_inst4', units='pix', 
@@ -290,14 +293,14 @@ img_inst4 = visual.ImageStim(
     ori=0.0, pos=(0, 0), size=(1000, 352),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-2.0)
+    texRes=128.0, interpolate=True, depth=-3.0)
 text_shintyoku = visual.TextStim(win=win, name='text_shintyoku',
     text='',
     font='Open Sans',
     units='norm', pos=(0.9, 0.9), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
-    depth=-3.0);
+    depth=-4.0);
 
 # Initialize components for Routine "outro"
 outroClock = core.Clock()
@@ -1192,9 +1195,12 @@ for thisTrial_2 in trials_2:
     key_resp_breaktime_2.keys = []
     key_resp_breaktime_2.rt = []
     _key_resp_breaktime_2_allKeys = []
+    key_break_break.keys = []
+    key_break_break.rt = []
+    _key_break_break_allKeys = []
     text_shintyoku.setText(strCounter + '/6')
     # keep track of which components have finished
-    breaktComponents = [key_resp_breaktime_2, polygon, img_inst4, text_shintyoku]
+    breaktComponents = [key_resp_breaktime_2, key_break_break, polygon, img_inst4, text_shintyoku]
     for thisComponent in breaktComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -1236,6 +1242,28 @@ for thisTrial_2 in trials_2:
             if len(_key_resp_breaktime_2_allKeys):
                 key_resp_breaktime_2.keys = _key_resp_breaktime_2_allKeys[-1].name  # just the last key pressed
                 key_resp_breaktime_2.rt = _key_resp_breaktime_2_allKeys[-1].rt
+                # a response ends the routine
+                continueRoutine = False
+        
+        # *key_break_break* updates
+        waitOnFlip = False
+        if key_break_break.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+            # keep track of start time/frame for later
+            key_break_break.frameNStart = frameN  # exact frame index
+            key_break_break.tStart = t  # local t and not account for scr refresh
+            key_break_break.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(key_break_break, 'tStartRefresh')  # time at next scr refresh
+            key_break_break.status = STARTED
+            # keyboard checking is just starting
+            waitOnFlip = True
+            win.callOnFlip(key_break_break.clock.reset)  # t=0 on next screen flip
+            win.callOnFlip(key_break_break.clearEvents, eventType='keyboard')  # clear events on next screen flip
+        if key_break_break.status == STARTED and not waitOnFlip:
+            theseKeys = key_break_break.getKeys(keyList=['q'], waitRelease=False)
+            _key_break_break_allKeys.extend(theseKeys)
+            if len(_key_break_break_allKeys):
+                key_break_break.keys = _key_break_break_allKeys[-1].name  # just the last key pressed
+                key_break_break.rt = _key_break_break_allKeys[-1].rt
                 # a response ends the routine
                 continueRoutine = False
         
@@ -1306,6 +1334,14 @@ for thisTrial_2 in trials_2:
         trials_2.addData('key_resp_breaktime_2.rt', key_resp_breaktime_2.rt)
     trials_2.addData('key_resp_breaktime_2.started', key_resp_breaktime_2.tStartRefresh)
     trials_2.addData('key_resp_breaktime_2.stopped', key_resp_breaktime_2.tStopRefresh)
+    # check responses
+    if key_break_break.keys in ['', [], None]:  # No response was made
+        key_break_break.keys = None
+    trials_2.addData('key_break_break.keys',key_break_break.keys)
+    if key_break_break.keys != None:  # we had a response
+        trials_2.addData('key_break_break.rt', key_break_break.rt)
+    trials_2.addData('key_break_break.started', key_break_break.tStartRefresh)
+    trials_2.addData('key_break_break.stopped', key_break_break.tStopRefresh)
     # the Routine "breakt" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     thisExp.nextEntry()
@@ -1462,9 +1498,12 @@ continueRoutine = True
 key_resp_breaktime_2.keys = []
 key_resp_breaktime_2.rt = []
 _key_resp_breaktime_2_allKeys = []
+key_break_break.keys = []
+key_break_break.rt = []
+_key_break_break_allKeys = []
 text_shintyoku.setText(strCounter + '/6')
 # keep track of which components have finished
-breaktComponents = [key_resp_breaktime_2, polygon, img_inst4, text_shintyoku]
+breaktComponents = [key_resp_breaktime_2, key_break_break, polygon, img_inst4, text_shintyoku]
 for thisComponent in breaktComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -1506,6 +1545,28 @@ while continueRoutine:
         if len(_key_resp_breaktime_2_allKeys):
             key_resp_breaktime_2.keys = _key_resp_breaktime_2_allKeys[-1].name  # just the last key pressed
             key_resp_breaktime_2.rt = _key_resp_breaktime_2_allKeys[-1].rt
+            # a response ends the routine
+            continueRoutine = False
+    
+    # *key_break_break* updates
+    waitOnFlip = False
+    if key_break_break.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+        # keep track of start time/frame for later
+        key_break_break.frameNStart = frameN  # exact frame index
+        key_break_break.tStart = t  # local t and not account for scr refresh
+        key_break_break.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(key_break_break, 'tStartRefresh')  # time at next scr refresh
+        key_break_break.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(key_break_break.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(key_break_break.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if key_break_break.status == STARTED and not waitOnFlip:
+        theseKeys = key_break_break.getKeys(keyList=['q'], waitRelease=False)
+        _key_break_break_allKeys.extend(theseKeys)
+        if len(_key_break_break_allKeys):
+            key_break_break.keys = _key_break_break_allKeys[-1].name  # just the last key pressed
+            key_break_break.rt = _key_break_break_allKeys[-1].rt
             # a response ends the routine
             continueRoutine = False
     
@@ -1576,6 +1637,15 @@ if key_resp_breaktime_2.keys != None:  # we had a response
     thisExp.addData('key_resp_breaktime_2.rt', key_resp_breaktime_2.rt)
 thisExp.addData('key_resp_breaktime_2.started', key_resp_breaktime_2.tStartRefresh)
 thisExp.addData('key_resp_breaktime_2.stopped', key_resp_breaktime_2.tStopRefresh)
+thisExp.nextEntry()
+# check responses
+if key_break_break.keys in ['', [], None]:  # No response was made
+    key_break_break.keys = None
+thisExp.addData('key_break_break.keys',key_break_break.keys)
+if key_break_break.keys != None:  # we had a response
+    thisExp.addData('key_break_break.rt', key_break_break.rt)
+thisExp.addData('key_break_break.started', key_break_break.tStartRefresh)
+thisExp.addData('key_break_break.stopped', key_break_break.tStopRefresh)
 thisExp.nextEntry()
 # the Routine "breakt" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
@@ -1806,9 +1876,12 @@ for thisTrial in trials:
         key_resp_breaktime_2.keys = []
         key_resp_breaktime_2.rt = []
         _key_resp_breaktime_2_allKeys = []
+        key_break_break.keys = []
+        key_break_break.rt = []
+        _key_break_break_allKeys = []
         text_shintyoku.setText(strCounter + '/6')
         # keep track of which components have finished
-        breaktComponents = [key_resp_breaktime_2, polygon, img_inst4, text_shintyoku]
+        breaktComponents = [key_resp_breaktime_2, key_break_break, polygon, img_inst4, text_shintyoku]
         for thisComponent in breaktComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -1850,6 +1923,28 @@ for thisTrial in trials:
                 if len(_key_resp_breaktime_2_allKeys):
                     key_resp_breaktime_2.keys = _key_resp_breaktime_2_allKeys[-1].name  # just the last key pressed
                     key_resp_breaktime_2.rt = _key_resp_breaktime_2_allKeys[-1].rt
+                    # a response ends the routine
+                    continueRoutine = False
+            
+            # *key_break_break* updates
+            waitOnFlip = False
+            if key_break_break.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+                # keep track of start time/frame for later
+                key_break_break.frameNStart = frameN  # exact frame index
+                key_break_break.tStart = t  # local t and not account for scr refresh
+                key_break_break.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(key_break_break, 'tStartRefresh')  # time at next scr refresh
+                key_break_break.status = STARTED
+                # keyboard checking is just starting
+                waitOnFlip = True
+                win.callOnFlip(key_break_break.clock.reset)  # t=0 on next screen flip
+                win.callOnFlip(key_break_break.clearEvents, eventType='keyboard')  # clear events on next screen flip
+            if key_break_break.status == STARTED and not waitOnFlip:
+                theseKeys = key_break_break.getKeys(keyList=['q'], waitRelease=False)
+                _key_break_break_allKeys.extend(theseKeys)
+                if len(_key_break_break_allKeys):
+                    key_break_break.keys = _key_break_break_allKeys[-1].name  # just the last key pressed
+                    key_break_break.rt = _key_break_break_allKeys[-1].rt
                     # a response ends the routine
                     continueRoutine = False
             
@@ -1920,6 +2015,14 @@ for thisTrial in trials:
             restOrNot.addData('key_resp_breaktime_2.rt', key_resp_breaktime_2.rt)
         restOrNot.addData('key_resp_breaktime_2.started', key_resp_breaktime_2.tStartRefresh)
         restOrNot.addData('key_resp_breaktime_2.stopped', key_resp_breaktime_2.tStopRefresh)
+        # check responses
+        if key_break_break.keys in ['', [], None]:  # No response was made
+            key_break_break.keys = None
+        restOrNot.addData('key_break_break.keys',key_break_break.keys)
+        if key_break_break.keys != None:  # we had a response
+            restOrNot.addData('key_break_break.rt', key_break_break.rt)
+        restOrNot.addData('key_break_break.started', key_break_break.tStartRefresh)
+        restOrNot.addData('key_break_break.stopped', key_break_break.tStopRefresh)
         # the Routine "breakt" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
         thisExp.nextEntry()
