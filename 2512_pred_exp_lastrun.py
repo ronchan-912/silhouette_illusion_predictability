@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.4),
-    on 月  1/ 5 18:14:38 2026
+    on 月  1/ 5 18:49:30 2026
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -98,6 +98,7 @@ img_inst1 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
     texRes=128.0, interpolate=True, depth=-1.0)
+seedBase = 0
 
 # Initialize components for Routine "mihon"
 mihonClock = core.Clock()
@@ -992,7 +993,7 @@ routineTimer.reset()
 trials_2 = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=data.importConditions('conditions_exp2512.xlsx'),
-    seed=sum([ord(c) for c in expInfo['participant']]) + 100, name='trials_2')
+    seed=seedBase + 100, name='trials_2')
 thisExp.addLoop(trials_2)  # add the loop to the experiment
 thisTrial_2 = trials_2.trialList[0]  # so we can initialise stimuli with some values
 # abbreviate parameter names if possible (e.g. rgb = thisTrial_2.rgb)
@@ -1664,7 +1665,7 @@ routineTimer.reset()
 trials = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=data.importConditions('conditions_exp2512.xlsx'),
-    seed=sum([ord(c) for c in expInfo['participant']]), name='trials')
+    seed=seedBase + 10, name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
 # abbreviate parameter names if possible (e.g. rgb = thisTrial.rgb)
