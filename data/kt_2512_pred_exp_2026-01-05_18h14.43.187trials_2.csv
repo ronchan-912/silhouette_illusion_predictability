@@ -1,0 +1,12 @@
+﻿movItems,n,finish_judge_3.keys_raw,finish_judge_3.rt_mean,finish_judge_3.rt_raw,finish_judge_3.rt_std,finish_judge_4.keys_raw,finish_judge_4.rt_mean,finish_judge_4.rt_raw,finish_judge_4.rt_std,fixation.started_mean,fixation.started_raw,fixation.started_std,fixation.stopped_raw,key_resp.keys_raw,key_resp.started_mean,key_resp.started_raw,key_resp.started_std,key_resp.stopped_raw,key_resp_breaktime_2.keys_raw,key_resp_breaktime_2.started_raw,key_resp_breaktime_2.stopped_raw,order
+mp4/dance_rigid.mp4,1.0,'q',0.059238500893116,0.059238500893116,0.0,'q',0.9029948711395264,0.9029948711395264,0.0,16.08159637451172,16.08159637451172,0.0,,,16.08159637451172,16.08159637451172,0.0,,,,,1.0
+mp4/dance_nonrigid.mp4,1.0,'q',0.8324828743934631,0.8324828743934631,0.0,'q',5.155311107635498,5.155311107635498,0.0,9.928086280822754,9.928086280822754,0.0,,,9.928086280822754,9.928086280822754,0.0,,,,,0.0
+mp4/dance_rigid_mask_shuffle.mp4,1.0,'q',0.9984064698219299,0.9984064698219299,0.0,'q',0.9697979092597961,0.9697979092597961,0.0,17.209726333618164,17.209726333618164,0.0,,,17.209726333618164,17.209726333618164,0.0,,,,,2.0
+
+extraInfo
+participant,kt
+session,001
+date,2026-01-05_18h14.43.187
+expName,2512_pred_exp
+psychopyVersion,2022.1.4
+frameRate,60.65207053263519

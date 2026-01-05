@@ -1,0 +1,364 @@
+1.2173 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+4.1193 	WARNING 	User requested fullscreen with size [1710 1112], but screen is actually [1470, 956]. Using actual size
+5.2701 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+5.2719 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff51a4e01f0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7ff519355760>, multiSample=False, name='window1', numSamples=2, pos=[367.5, 239.0], screen=0, size=array([2940, 1912]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.2727 	EXP 	window1: mouseVisible = True
+5.2729 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.2732 	EXP 	window1: recordFrameIntervals = False
+5.3531 	EXP 	window1: recordFrameIntervals = True
+6.1867 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+6.2871 	EXP 	Created img_inst1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='png/inst1.png', interpolate=True, mask=None, maskParams=None, name='img_inst1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1000.,  528.]), texRes=128.0, units='pix', win=Window(...))
+6.3954 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.3954 	EXP 	window1: recordFrameIntervals = False
+6.4719 	EXP 	window1: recordFrameIntervals = True
+7.3091 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.3092 	WARNING 	FrameRate could not be supplied by psychopy; defaulting to 60.0
+7.3105 	EXP 	Created movie = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='mp4/catch_demo.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+7.4735 	WARNING 	0.16298841700336197: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03336666666666667
+7.4736 	WARNING 	0.16306341699964833: Video catchup needed, advancing self._nextFrameT from 0.03336666666666667 to 0.06673333333333334
+7.4736 	WARNING 	0.16307358300400665: Video catchup needed, advancing self._nextFrameT from 0.06673333333333334 to 0.10010000000000001
+7.4827 	EXP 	Created fixation_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([ 1.    , -0.2235, -0.4431]), fillColorSpace='rgb', fillRGB=array([ 1.    , -0.2235, -0.4431]), interpolate=True, lineColor=array([ 1.    , -0.2235, -0.4431]), lineColorSpace='rgb', lineRGB=array([ 1.    , -0.2235, -0.4431]), lineWidth=1.0, name='fixation_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([25., 25.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.5423 	EXP 	Created img_inst2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='png/inst2.png', interpolate=True, mask=None, maskParams=None, name='img_inst2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1000.,  528.]), texRes=128.0, units='pix', win=Window(...))
+7.5424 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.5424 	EXP 	window1: recordFrameIntervals = False
+7.5464 	EXP 	movie: autoLog = True
+7.5464 	EXP 	movie: movie = 'mp4/catch_demo.mp4'
+7.5464 	EXP 	movie: ori = 0.0
+7.6186 	EXP 	window1: recordFrameIntervals = True
+8.4534 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+8.4535 	WARNING 	FrameRate could not be supplied by psychopy; defaulting to 60.0
+8.4550 	EXP 	Created mov = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='mp4/demo/taisoufuku_demo_120sec.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+8.6258 	WARNING 	0.1707047500021872: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+8.6259 	WARNING 	0.17078708299959544: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+8.6259 	WARNING 	0.17079679100424983: Video catchup needed, advancing self._nextFrameT from 0.06666666666666667 to 0.1
+8.6259 	WARNING 	0.17080445800093003: Video catchup needed, advancing self._nextFrameT from 0.1 to 0.13333333333333333
+8.6547 	EXP 	Created polygon_6 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, fillColor=array([ 1.    , -0.2235, -0.4431]), fillColorSpace='rgb', fillRGB=array([ 1.    , -0.2235, -0.4431]), interpolate=True, lineColor=array([ 1.    , -0.2235, -0.4431]), lineColorSpace='rgb', lineRGB=array([ 1.    , -0.2235, -0.4431]), lineWidth=1.0, name='polygon_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([25., 25.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+8.6896 	EXP 	Created mask_cw = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='png/mask_l.png', interpolate=True, mask=None, maskParams=None, name='mask_cw', opacity=1.0, ori=0.0, pos=array([-480.,    0.]), size=array([480., 800.]), texRes=128.0, units='pix', win=Window(...))
+8.7221 	EXP 	Created mask_ccw = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='png/mask_r.png', interpolate=True, mask=None, maskParams=None, name='mask_ccw', opacity=1.0, ori=0.0, pos=array([480.,   0.]), size=array([480., 800.]), texRes=128.0, units='pix', win=Window(...))
+8.7889 	EXP 	Created img_inst3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='png/inst3.png', interpolate=True, mask=None, maskParams=None, name='img_inst3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1000.,  687.]), texRes=128.0, units='pix', win=Window(...))
+8.7900 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([ 1.    , -0.2235, -0.4431]), fillColorSpace='rgb', fillRGB=array([ 1.    , -0.2235, -0.4431]), interpolate=True, lineColor=array([ 1.    , -0.2235, -0.4431]), lineColorSpace='rgb', lineRGB=array([ 1.    , -0.2235, -0.4431]), lineWidth=1.0, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([25., 25.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+8.7907 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([0.8824, 0.8039, 0.098 ]), fillColorSpace='rgb', fillRGB=array([0.8824, 0.8039, 0.098 ]), interpolate=True, lineColor=array([0.8824, 0.8039, 0.098 ]), lineColorSpace='rgb', lineRGB=array([0.8824, 0.8039, 0.098 ]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.8284 	EXP 	Created img_inst4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='png/inst4.png', interpolate=True, mask=None, maskParams=None, name='img_inst4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1000.,  352.]), texRes=128.0, units='pix', win=Window(...))
+8.8342 	EXP 	Created text_shintyoku = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_shintyoku', opacity=1.0, ori=0.0, pos=array([0.9, 0.9]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.8355 	EXP 	Created fixation_catch = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([ 1.    , -0.2235, -0.4431]), fillColorSpace='rgb', fillRGB=array([ 1.    , -0.2235, -0.4431]), interpolate=True, lineColor=array([ 1.    , -0.2235, -0.4431]), lineColorSpace='rgb', lineRGB=array([ 1.    , -0.2235, -0.4431]), lineWidth=1.0, name='fixation_catch', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([25., 25.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+8.8361 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([0.8824, 0.8039, 0.098 ]), fillColorSpace='rgb', fillRGB=array([0.8824, 0.8039, 0.098 ]), interpolate=True, lineColor=array([0.8824, 0.8039, 0.098 ]), lineColorSpace='rgb', lineRGB=array([0.8824, 0.8039, 0.098 ]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.8724 	EXP 	Created img_inst4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='png/inst4.png', interpolate=True, mask=None, maskParams=None, name='img_inst4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1000.,  352.]), texRes=128.0, units='pix', win=Window(...))
+8.8731 	EXP 	Created text_shintyoku = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_shintyoku', opacity=1.0, ori=0.0, pos=array([0.9, 0.9]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.8746 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([ 1.    , -0.2235, -0.4431]), fillColorSpace='rgb', fillRGB=array([ 1.    , -0.2235, -0.4431]), interpolate=True, lineColor=array([ 1.    , -0.2235, -0.4431]), lineColorSpace='rgb', lineRGB=array([ 1.    , -0.2235, -0.4431]), lineWidth=1.0, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([25., 25.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+8.8752 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([0.8824, 0.8039, 0.098 ]), fillColorSpace='rgb', fillRGB=array([0.8824, 0.8039, 0.098 ]), interpolate=True, lineColor=array([0.8824, 0.8039, 0.098 ]), lineColorSpace='rgb', lineRGB=array([0.8824, 0.8039, 0.098 ]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.9114 	EXP 	Created img_inst4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='png/inst4.png', interpolate=True, mask=None, maskParams=None, name='img_inst4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1000.,  352.]), texRes=128.0, units='pix', win=Window(...))
+8.9121 	EXP 	Created text_shintyoku = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_shintyoku', opacity=1.0, ori=0.0, pos=array([0.9, 0.9]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.9310 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you.', units='height', win=Window(...), wrapWidth=1)
+8.9370 	WARNING 	t of last frame was 483.99ms (=1/2)
+8.9370 	EXP 	mov: autoLog = True
+8.9370 	EXP 	mov: movie = 'mp4/demo/taisoufuku_demo_120sec.mp4'
+8.9370 	EXP 	mov: ori = 0.0
+8.9370 	EXP 	img_inst1: autoDraw = True
+9.7771 	DATA 	Keypress: space
+9.7913 	WARNING 	t of last frame was 23.32ms (=1/42)
+9.7913 	EXP 	img_inst1: autoDraw = False
+9.7913 	EXP 	movie: autoDraw = True
+9.7913 	EXP 	fixation_2: autoDraw = True
+10.2530 	WARNING 	t of last frame was 24.95ms (=1/40)
+10.3127 	DATA 	Keypress: q
+10.3257 	EXP 	movie: autoDraw = False
+10.3257 	EXP 	fixation_2: autoDraw = False
+10.3257 	EXP 	img_inst2: autoDraw = True
+10.6391 	DATA 	Keypress: space
+10.6925 	WARNING 	t of last frame was 47.28ms (=1/21)
+10.6925 	EXP 	img_inst2: autoDraw = False
+10.6925 	EXP 	mov: autoDraw = True
+10.6925 	EXP 	polygon_6: autoDraw = True
+10.6925 	EXP 	mask_cw: autoDraw = True
+10.6925 	EXP 	mask_cw: texRes = 128.0
+10.6925 	EXP 	mask_ccw: autoDraw = True
+10.6925 	EXP 	mask_ccw: texRes = 128.0
+10.7258 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+10.7258 	EXP 	mask_cw: texRes = 128.0
+10.7258 	EXP 	mask_ccw: texRes = 128.0
+10.7566 	EXP 	mask_cw: texRes = 128.0
+10.7566 	EXP 	mask_ccw: texRes = 128.0
+10.7839 	EXP 	mask_cw: texRes = 128.0
+10.7839 	EXP 	mask_ccw: texRes = 128.0
+10.8126 	EXP 	mask_cw: texRes = 128.0
+10.8126 	EXP 	mask_ccw: texRes = 128.0
+10.8386 	EXP 	mask_cw: texRes = 128.0
+10.8386 	EXP 	mask_ccw: texRes = 128.0
+10.8640 	EXP 	mask_cw: texRes = 128.0
+10.8640 	EXP 	mask_ccw: texRes = 128.0
+10.8868 	EXP 	mask_cw: texRes = 128.0
+10.8868 	EXP 	mask_ccw: texRes = 128.0
+10.9120 	EXP 	mask_cw: texRes = 128.0
+10.9120 	EXP 	mask_ccw: texRes = 128.0
+10.9377 	EXP 	mask_cw: texRes = 128.0
+10.9377 	EXP 	mask_ccw: texRes = 128.0
+10.9602 	EXP 	mask_cw: texRes = 128.0
+10.9602 	EXP 	mask_ccw: texRes = 128.0
+10.9859 	EXP 	mask_cw: texRes = 128.0
+10.9859 	EXP 	mask_ccw: texRes = 128.0
+11.0112 	EXP 	mask_cw: texRes = 128.0
+11.0112 	EXP 	mask_ccw: texRes = 128.0
+11.0368 	EXP 	mask_cw: texRes = 128.0
+11.0368 	EXP 	mask_ccw: texRes = 128.0
+11.0592 	EXP 	mask_cw: texRes = 128.0
+11.0592 	EXP 	mask_ccw: texRes = 128.0
+11.0843 	EXP 	mask_cw: texRes = 128.0
+11.0843 	EXP 	mask_ccw: texRes = 128.0
+11.1096 	EXP 	mask_cw: texRes = 128.0
+11.1096 	EXP 	mask_ccw: texRes = 128.0
+11.1353 	EXP 	mask_cw: texRes = 128.0
+11.1353 	EXP 	mask_ccw: texRes = 128.0
+11.1576 	EXP 	mask_cw: texRes = 128.0
+11.1576 	EXP 	mask_ccw: texRes = 128.0
+11.1827 	EXP 	mask_cw: texRes = 128.0
+11.1827 	EXP 	mask_ccw: texRes = 128.0
+11.1854 	DATA 	Keypress: q
+11.2075 	EXP 	mask_cw: texRes = 128.0
+11.2075 	EXP 	mask_ccw: texRes = 128.0
+11.2075 	EXP 	mov: autoDraw = False
+11.2075 	EXP 	polygon_6: autoDraw = False
+11.2075 	EXP 	mask_cw: autoDraw = False
+11.2075 	EXP 	mask_ccw: autoDraw = False
+11.2075 	EXP 	img_inst3: autoDraw = True
+11.5488 	DATA 	Keypress: space
+11.5679 	EXP 	Imported conditions_exp2512.xlsx as conditions, 3 conditions, 1 params
+11.5691 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=321
+11.5694 	EXP 	New trial (rep=0, index=0): {'movItems': 'mp4/dance_rigid_mask_shuffle.mp4'}
+11.5695 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+11.5696 	EXP 	window1: recordFrameIntervals = False
+11.5733 	EXP 	img_inst3: autoDraw = False
+11.6527 	EXP 	window1: recordFrameIntervals = True
+12.4866 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+12.4866 	WARNING 	FrameRate could not be supplied by psychopy; defaulting to 60.0
+12.4877 	EXP 	Created mov00 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='mp4/dance_rigid_mask_shuffle.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov00', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+12.6572 	WARNING 	0.16939633300353307: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+12.6572 	WARNING 	0.16947433300083503: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+12.6572 	WARNING 	0.1694844160010689: Video catchup needed, advancing self._nextFrameT from 0.06666666666666667 to 0.1
+12.6572 	WARNING 	0.16949174999899697: Video catchup needed, advancing self._nextFrameT from 0.1 to 0.13333333333333333
+12.6805 	EXP 	mov00: autoLog = True
+12.6805 	EXP 	mov00: movie = 'mp4/dance_rigid_mask_shuffle.mp4'
+12.6805 	EXP 	mov00: ori = 0.0
+12.6805 	EXP 	mov00: autoDraw = True
+12.6805 	EXP 	fixation: autoDraw = True
+20.3119 	DATA 	Keypress: q
+20.3300 	EXP 	mov00: autoDraw = False
+20.3300 	EXP 	fixation: autoDraw = False
+20.3300 	EXP 	text_shintyoku: height = 0.05
+20.3300 	EXP 	text_shintyoku: height = 0.05
+20.3300 	EXP 	text_shintyoku: height = 0.05
+20.3300 	EXP 	text_shintyoku: text = '1/6'
+20.3300 	EXP 	polygon: autoDraw = True
+20.3300 	EXP 	img_inst4: autoDraw = True
+20.3300 	EXP 	text_shintyoku: autoDraw = True
+20.8027 	DATA 	Keypress: q
+20.8042 	EXP 	New trial (rep=0, index=1): {'movItems': 'mp4/dance_rigid.mp4'}
+20.8044 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+20.8044 	EXP 	window1: recordFrameIntervals = False
+20.8088 	EXP 	polygon: autoDraw = False
+20.8088 	EXP 	img_inst4: autoDraw = False
+20.8088 	EXP 	text_shintyoku: autoDraw = False
+20.8860 	EXP 	window1: recordFrameIntervals = True
+21.7202 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+21.7203 	WARNING 	FrameRate could not be supplied by psychopy; defaulting to 60.0
+21.7220 	EXP 	Created mov00 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='mp4/dance_rigid.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov00', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+21.8732 	WARNING 	0.15104629199777264: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+21.8733 	WARNING 	0.15113037500123028: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+21.8733 	WARNING 	0.1511404999982915: Video catchup needed, advancing self._nextFrameT from 0.06666666666666667 to 0.1
+21.9007 	EXP 	mov00: autoLog = True
+21.9007 	EXP 	mov00: movie = 'mp4/dance_rigid.mp4'
+21.9007 	EXP 	mov00: ori = 0.0
+21.9007 	EXP 	mov00: autoDraw = True
+21.9007 	EXP 	fixation: autoDraw = True
+26.3935 	DATA 	Keypress: q
+26.4043 	EXP 	mov00: autoDraw = False
+26.4043 	EXP 	fixation: autoDraw = False
+26.4043 	EXP 	text_shintyoku: height = 0.05
+26.4043 	EXP 	text_shintyoku: height = 0.05
+26.4043 	EXP 	text_shintyoku: height = 0.05
+26.4043 	EXP 	text_shintyoku: text = '2/6'
+26.4043 	EXP 	polygon: autoDraw = True
+26.4043 	EXP 	img_inst4: autoDraw = True
+26.4043 	EXP 	text_shintyoku: autoDraw = True
+26.7455 	DATA 	Keypress: q
+26.7525 	EXP 	New trial (rep=0, index=2): {'movItems': 'mp4/dance_nonrigid.mp4'}
+26.7528 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+26.7528 	EXP 	window1: recordFrameIntervals = False
+26.7568 	EXP 	polygon: autoDraw = False
+26.7568 	EXP 	img_inst4: autoDraw = False
+26.7568 	EXP 	text_shintyoku: autoDraw = False
+26.8361 	EXP 	window1: recordFrameIntervals = True
+27.6865 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+27.6865 	WARNING 	FrameRate could not be supplied by psychopy; defaulting to 60.0
+27.6878 	EXP 	Created mov00 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='mp4/dance_nonrigid.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov00', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+27.8481 	WARNING 	0.16023774999484885: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+27.8482 	WARNING 	0.1603391249955166: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+27.8482 	WARNING 	0.16034899999795016: Video catchup needed, advancing self._nextFrameT from 0.06666666666666667 to 0.1
+27.8700 	EXP 	mov00: autoLog = True
+27.8700 	EXP 	mov00: movie = 'mp4/dance_nonrigid.mp4'
+27.8700 	EXP 	mov00: ori = 0.0
+27.8700 	EXP 	mov00: autoDraw = True
+27.8700 	EXP 	fixation: autoDraw = True
+28.4273 	DATA 	Keypress: q
+28.4393 	EXP 	mov00: autoDraw = False
+28.4393 	EXP 	fixation: autoDraw = False
+28.4393 	EXP 	text_shintyoku: height = 0.05
+28.4393 	EXP 	text_shintyoku: height = 0.05
+28.4393 	EXP 	text_shintyoku: height = 0.05
+28.4393 	EXP 	text_shintyoku: text = '3/6'
+28.4393 	EXP 	polygon: autoDraw = True
+28.4393 	EXP 	img_inst4: autoDraw = True
+28.4393 	EXP 	text_shintyoku: autoDraw = True
+29.5103 	DATA 	Keypress: q
+29.5280 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+29.5280 	EXP 	window1: recordFrameIntervals = False
+29.5324 	EXP 	polygon: autoDraw = False
+29.5324 	EXP 	img_inst4: autoDraw = False
+29.5324 	EXP 	text_shintyoku: autoDraw = False
+29.6358 	EXP 	window1: recordFrameIntervals = True
+30.4759 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+30.4759 	WARNING 	FrameRate could not be supplied by psychopy; defaulting to 60.0
+30.4771 	EXP 	Created mov_catch = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='mp4/catch.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov_catch', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+30.6398 	WARNING 	0.1626487499961513: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+30.6399 	WARNING 	0.16274020799755817: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+30.6399 	WARNING 	0.16275020800094353: Video catchup needed, advancing self._nextFrameT from 0.06666666666666667 to 0.1
+30.6606 	EXP 	mov_catch: autoLog = True
+30.6606 	EXP 	mov_catch: movie = 'mp4/catch.mp4'
+30.6606 	EXP 	mov_catch: ori = 0.0
+30.6606 	EXP 	mov_catch: autoDraw = True
+30.6606 	EXP 	fixation_catch: autoDraw = True
+60.6702 	DATA 	Keypress: f
+60.9099 	DATA 	Keypress: j
+61.1418 	DATA 	Keypress: f
+61.3798 	DATA 	Keypress: j
+61.6028 	DATA 	Keypress: f
+89.5241 	EXP 	mov_catch: autoDraw = False
+89.5241 	EXP 	fixation_catch: autoDraw = False
+89.5241 	EXP 	text_shintyoku: text = '3/6'
+89.5241 	EXP 	polygon: autoDraw = True
+89.5241 	EXP 	img_inst4: autoDraw = True
+89.5241 	EXP 	text_shintyoku: autoDraw = True
+93.9725 	DATA 	Keypress: space
+94.6435 	DATA 	Keypress: q
+94.6552 	EXP 	Imported conditions_exp2512.xlsx as conditions, 3 conditions, 1 params
+94.6560 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=221
+94.6565 	EXP 	New trial (rep=0, index=0): {'movItems': 'mp4/dance_rigid.mp4'}
+94.6566 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+94.6566 	EXP 	window1: recordFrameIntervals = False
+94.6611 	EXP 	polygon: autoDraw = False
+94.6611 	EXP 	img_inst4: autoDraw = False
+94.6611 	EXP 	text_shintyoku: autoDraw = False
+94.7358 	EXP 	window1: recordFrameIntervals = True
+95.5699 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+95.5700 	WARNING 	FrameRate could not be supplied by psychopy; defaulting to 60.0
+95.5716 	EXP 	Created mov00 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='mp4/dance_rigid.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov00', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+95.7196 	WARNING 	0.14788395899813622: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+95.7197 	WARNING 	0.14796708399808267: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+95.7197 	WARNING 	0.14797695899324026: Video catchup needed, advancing self._nextFrameT from 0.06666666666666667 to 0.1
+95.7452 	EXP 	mov00: autoLog = True
+95.7452 	EXP 	mov00: movie = 'mp4/dance_rigid.mp4'
+95.7452 	EXP 	mov00: ori = 0.0
+95.7452 	EXP 	mov00: autoDraw = True
+95.7452 	EXP 	fixation: autoDraw = True
+96.1095 	DATA 	Keypress: q
+96.1120 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+96.1122 	EXP 	New trial (rep=0, index=0): None
+96.1229 	EXP 	mov00: autoDraw = False
+96.1229 	EXP 	fixation: autoDraw = False
+96.1229 	EXP 	text_shintyoku: height = 0.05
+96.1229 	EXP 	text_shintyoku: height = 0.05
+96.1229 	EXP 	text_shintyoku: height = 0.05
+96.1229 	EXP 	text_shintyoku: text = '4/6'
+96.1229 	EXP 	polygon: autoDraw = True
+96.1229 	EXP 	img_inst4: autoDraw = True
+96.1229 	EXP 	text_shintyoku: autoDraw = True
+96.5312 	DATA 	Keypress: q
+96.5445 	EXP 	New trial (rep=0, index=1): {'movItems': 'mp4/dance_rigid_mask_shuffle.mp4'}
+96.5447 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+96.5447 	EXP 	window1: recordFrameIntervals = False
+96.5493 	EXP 	polygon: autoDraw = False
+96.5493 	EXP 	img_inst4: autoDraw = False
+96.5493 	EXP 	text_shintyoku: autoDraw = False
+96.6519 	EXP 	window1: recordFrameIntervals = True
+97.5072 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+97.5073 	WARNING 	FrameRate could not be supplied by psychopy; defaulting to 60.0
+97.5082 	EXP 	Created mov00 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='mp4/dance_rigid_mask_shuffle.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov00', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+97.6657 	WARNING 	0.15743845800170675: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+97.6658 	WARNING 	0.1575692499973229: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+97.6658 	WARNING 	0.15757933299755678: Video catchup needed, advancing self._nextFrameT from 0.06666666666666667 to 0.1
+97.6875 	EXP 	mov00: autoLog = True
+97.6875 	EXP 	mov00: movie = 'mp4/dance_rigid_mask_shuffle.mp4'
+97.6875 	EXP 	mov00: ori = 0.0
+97.6875 	EXP 	mov00: autoDraw = True
+97.6875 	EXP 	fixation: autoDraw = True
+105.6595 	DATA 	Keypress: q
+105.6619 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+105.6621 	EXP 	New trial (rep=0, index=0): None
+105.6730 	EXP 	mov00: autoDraw = False
+105.6730 	EXP 	fixation: autoDraw = False
+105.6730 	EXP 	text_shintyoku: height = 0.05
+105.6730 	EXP 	text_shintyoku: height = 0.05
+105.6730 	EXP 	text_shintyoku: height = 0.05
+105.6730 	EXP 	text_shintyoku: text = '5/6'
+105.6730 	EXP 	polygon: autoDraw = True
+105.6730 	EXP 	img_inst4: autoDraw = True
+105.6730 	EXP 	text_shintyoku: autoDraw = True
+106.2962 	DATA 	Keypress: q
+106.3265 	EXP 	New trial (rep=0, index=2): {'movItems': 'mp4/dance_nonrigid.mp4'}
+106.3267 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+106.3267 	EXP 	window1: recordFrameIntervals = False
+106.3314 	EXP 	polygon: autoDraw = False
+106.3314 	EXP 	img_inst4: autoDraw = False
+106.3314 	EXP 	text_shintyoku: autoDraw = False
+106.4059 	EXP 	window1: recordFrameIntervals = True
+107.3361 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+107.3361 	WARNING 	FrameRate could not be supplied by psychopy; defaulting to 60.0
+107.3371 	EXP 	Created mov00 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='mp4/dance_nonrigid.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov00', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+107.4916 	WARNING 	0.15446808299748227: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+107.4917 	WARNING 	0.15455549999751383: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+107.4917 	WARNING 	0.1545651659980649: Video catchup needed, advancing self._nextFrameT from 0.06666666666666667 to 0.1
+107.5159 	EXP 	mov00: autoLog = True
+107.5159 	EXP 	mov00: movie = 'mp4/dance_nonrigid.mp4'
+107.5159 	EXP 	mov00: ori = 0.0
+107.5159 	EXP 	mov00: autoDraw = True
+107.5159 	EXP 	fixation: autoDraw = True
+117.7759 	DATA 	Keypress: q
+117.7858 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+117.8004 	EXP 	mov00: autoDraw = False
+117.8004 	EXP 	fixation: autoDraw = False
+117.8004 	EXP 	text: autoDraw = True
+120.7904 	EXP 	text: autoDraw = False
+120.7904 	EXP 	text: autoDraw = False
+120.8453 	EXP 	window1: mouseVisible = True

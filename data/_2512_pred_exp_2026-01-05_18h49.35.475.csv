@@ -1,0 +1,7 @@
+﻿movItems,trials_2.thisRepN,trials_2.thisTrialN,trials_2.thisN,trials_2.thisIndex,key_resp_mihon.keys,key_resp_mihon.started,key_resp_mihon.stopped,finish_judge_2.keys,finish_judge_2.rt,fixation_2.started,fixation_2.stopped,finish_judge.keys,finish_judge.rt,key_resp_demo.keys,key_resp_demo.started,key_resp_demo.stopped,key_resp.keys,key_resp.started,key_resp.stopped,finish_judge_3.keys,finish_judge_3.rt,fixation.started,fixation.stopped,key_resp_breaktime_2.keys,key_resp_breaktime_2.started,key_resp_breaktime_2.stopped,finish_judge_4.keys,finish_judge_4.rt,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,None,9.785758792000706,None,,,,,,,,,,,,,,,,,,,,,,,001,2026-01-05_18h49.35.475,2512_pred_exp,2022.1.4,None,
+,,,,,,,,q,0.5116822079944541,,,,,,,,,,,,,,,,,,,,,001,2026-01-05_18h49.35.475,2512_pred_exp,2022.1.4,None,
+,,,,,,,,,,9.785758792000706,None,q,0.4961338749999413,,,,,,,,,,,,,,,,,001,2026-01-05_18h49.35.475,2512_pred_exp,2022.1.4,None,
+,,,,,,,,,,,,,,None,10.66113929200219,None,,,,,,,,,,,,,,001,2026-01-05_18h49.35.475,2512_pred_exp,2022.1.4,None,
+mp4/dance_rigid_mask_shuffle.mp4,0,0,0,2,,,,,,,,,,,,,None,12.702206000001752,None,q,0.5076327090064296,12.702206000001752,None,None,None,None,q,0.4752278330051922,,001,2026-01-05_18h49.35.475,2512_pred_exp,2022.1.4,None,
+mp4/dance_nonrigid.mp4,0,1,1,1,,,,,,,,,,,,,None,14.815254042005108,None,q,0.32736279199889395,14.815254042005108,None,None,None,None,q,0.34850854199612513,,001,2026-01-05_18h49.35.475,2512_pred_exp,2022.1.4,None,

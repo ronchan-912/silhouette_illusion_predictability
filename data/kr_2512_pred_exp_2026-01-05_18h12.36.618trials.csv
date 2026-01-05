@@ -1,0 +1,12 @@
+﻿movItems,n,finish_judge_3.keys_raw,finish_judge_3.rt_mean,finish_judge_3.rt_raw,finish_judge_3.rt_std,fixation.started_mean,fixation.started_raw,fixation.started_std,fixation.stopped_raw,key_resp.keys_raw,key_resp.started_mean,key_resp.started_raw,key_resp.started_std,key_resp.stopped_raw,order
+mp4/dance_rigid.mp4,1.0,'q',0.3649146556854248,0.3649146556854248,0.0,95.74520874023438,95.74520874023438,0.0,,,95.74520874023438,95.74520874023438,0.0,,0.0
+mp4/dance_nonrigid.mp4,1.0,'q',10.268369674682617,10.268369674682617,0.0,107.51591491699219,107.51591491699219,0.0,,,107.51591491699219,107.51591491699219,0.0,,2.0
+mp4/dance_rigid_mask_shuffle.mp4,1.0,'q',7.972815990447998,7.972815990447998,0.0,97.68746948242188,97.68746948242188,0.0,,,97.68746948242188,97.68746948242188,0.0,,1.0
+
+extraInfo
+participant,kr
+session,001
+date,2026-01-05_18h12.36.618
+expName,2512_pred_exp
+psychopyVersion,2022.1.4
+frameRate,None

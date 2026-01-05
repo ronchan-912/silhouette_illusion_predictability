@@ -121,6 +121,7 @@ async function updateInfo() {
 var introduction1Clock;
 var key_resp_instruction_2;
 var img_inst1;
+var seedBase;
 var mihonClock;
 var movieClock;
 var movie;
@@ -176,6 +177,11 @@ async function experimentInit() {
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -1.0 
   });
+  seedBase = 0;
+  const s = (expInfo['participant'] || '').toString();
+  for (let i = 0; i < s.length; i++) {
+    seedBase = (seedBase * 31 + s.charCodeAt(i)) >>> 0;
+  }
   // Initialize components for Routine "mihon"
   mihonClock = new util.Clock();
   movieClock = new util.Clock();
@@ -1195,7 +1201,7 @@ function trials_2LoopBegin(trials_2LoopScheduler, snapshot) {
       nReps: 1, method: TrialHandler.Method.RANDOM,
       extraInfo: expInfo, originPath: undefined,
       trialList: 'conditions_exp2512.xlsx',
-      seed: 10, name: 'trials_2'
+      seed: seedBase + 100, name: 'trials_2'
     });
     psychoJS.experiment.addLoop(trials_2); // add the loop to the experiment
     currentLoop = trials_2;  // we're now the current loop
@@ -1237,7 +1243,7 @@ function trialsLoopBegin(trialsLoopScheduler, snapshot) {
       nReps: 1, method: TrialHandler.Method.RANDOM,
       extraInfo: expInfo, originPath: undefined,
       trialList: 'conditions_exp2512.xlsx',
-      seed: 80, name: 'trials'
+      seed: seedBase + 10, name: 'trials'
     });
     psychoJS.experiment.addLoop(trials); // add the loop to the experiment
     currentLoop = trials;  // we're now the current loop
@@ -2006,6 +2012,8 @@ async function quitPsychoJS(message, isCompleted) {
   if (psychoJS.experiment.isEntryEmpty()) {
     psychoJS.experiment.nextEntry();
   }
+  
+  
   
   
   

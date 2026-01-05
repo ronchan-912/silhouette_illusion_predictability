@@ -1,0 +1,259 @@
+1.2642 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+4.6227 	WARNING 	User requested fullscreen with size [1710 1112], but screen is actually [1470, 956]. Using actual size
+5.0911 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fcdd374b4c0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fcdd204a9d0>, multiSample=False, name='window1', numSamples=2, pos=[367.5, 239.0], screen=0, size=array([2940, 1912]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.0913 	EXP 	window1: mouseVisible = True
+5.0913 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.0913 	EXP 	window1: recordFrameIntervals = False
+5.2431 	EXP 	window1: recordFrameIntervals = True
+5.4903 	EXP 	Screen (0) actual frame rate measured at 60.65Hz
+5.4904 	EXP 	window1: recordFrameIntervals = False
+5.5799 	EXP 	Created img_inst1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='png/inst1.png', interpolate=True, mask=None, maskParams=None, name='img_inst1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1000.,  528.]), texRes=128.0, units='pix', win=Window(...))
+5.6644 	EXP 	Created movie = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=0.0, filename='mp4/catch_demo.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='movie', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+5.7426 	WARNING 	0.0781448330017156: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03336666666666667
+5.7491 	EXP 	Created fixation_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([ 1.    , -0.2235, -0.4431]), fillColorSpace='rgb', fillRGB=array([ 1.    , -0.2235, -0.4431]), interpolate=True, lineColor=array([ 1.    , -0.2235, -0.4431]), lineColorSpace='rgb', lineRGB=array([ 1.    , -0.2235, -0.4431]), lineWidth=1.0, name='fixation_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([25., 25.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+5.8091 	EXP 	Created img_inst2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='png/inst2.png', interpolate=True, mask=None, maskParams=None, name='img_inst2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1000.,  528.]), texRes=128.0, units='pix', win=Window(...))
+5.8093 	EXP 	Created mov = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='mp4/demo/taisoufuku_demo_120sec.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+5.9087 	WARNING 	0.0993400829975144: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+5.9224 	EXP 	Created polygon_6 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, fillColor=array([ 1.    , -0.2235, -0.4431]), fillColorSpace='rgb', fillRGB=array([ 1.    , -0.2235, -0.4431]), interpolate=True, lineColor=array([ 1.    , -0.2235, -0.4431]), lineColorSpace='rgb', lineRGB=array([ 1.    , -0.2235, -0.4431]), lineWidth=1.0, name='polygon_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([25., 25.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+5.9577 	EXP 	Created mask_cw = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='png/mask_l.png', interpolate=True, mask=None, maskParams=None, name='mask_cw', opacity=1.0, ori=0.0, pos=array([-480.,    0.]), size=array([480., 800.]), texRes=128.0, units='pix', win=Window(...))
+5.9902 	EXP 	Created mask_ccw = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='png/mask_r.png', interpolate=True, mask=None, maskParams=None, name='mask_ccw', opacity=1.0, ori=0.0, pos=array([480.,   0.]), size=array([480., 800.]), texRes=128.0, units='pix', win=Window(...))
+6.0570 	EXP 	Created img_inst3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='png/inst3.png', interpolate=True, mask=None, maskParams=None, name='img_inst3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1000.,  687.]), texRes=128.0, units='pix', win=Window(...))
+6.0583 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([ 1.    , -0.2235, -0.4431]), fillColorSpace='rgb', fillRGB=array([ 1.    , -0.2235, -0.4431]), interpolate=True, lineColor=array([ 1.    , -0.2235, -0.4431]), lineColorSpace='rgb', lineRGB=array([ 1.    , -0.2235, -0.4431]), lineWidth=1.0, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([25., 25.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+6.0591 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([0.8824, 0.8039, 0.098 ]), fillColorSpace='rgb', fillRGB=array([0.8824, 0.8039, 0.098 ]), interpolate=True, lineColor=array([0.8824, 0.8039, 0.098 ]), lineColorSpace='rgb', lineRGB=array([0.8824, 0.8039, 0.098 ]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+6.0972 	EXP 	Created img_inst4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='png/inst4.png', interpolate=True, mask=None, maskParams=None, name='img_inst4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1000.,  352.]), texRes=128.0, units='pix', win=Window(...))
+6.1025 	EXP 	Created text_shintyoku = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_shintyoku', opacity=1.0, ori=0.0, pos=array([0.9, 0.9]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+6.1036 	EXP 	Created fixation_catch = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([ 1.    , -0.2235, -0.4431]), fillColorSpace='rgb', fillRGB=array([ 1.    , -0.2235, -0.4431]), interpolate=True, lineColor=array([ 1.    , -0.2235, -0.4431]), lineColorSpace='rgb', lineRGB=array([ 1.    , -0.2235, -0.4431]), lineWidth=1.0, name='fixation_catch', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([25., 25.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+6.1043 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([0.8824, 0.8039, 0.098 ]), fillColorSpace='rgb', fillRGB=array([0.8824, 0.8039, 0.098 ]), interpolate=True, lineColor=array([0.8824, 0.8039, 0.098 ]), lineColorSpace='rgb', lineRGB=array([0.8824, 0.8039, 0.098 ]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+6.1425 	EXP 	Created img_inst4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='png/inst4.png', interpolate=True, mask=None, maskParams=None, name='img_inst4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1000.,  352.]), texRes=128.0, units='pix', win=Window(...))
+6.1432 	EXP 	Created text_shintyoku = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_shintyoku', opacity=1.0, ori=0.0, pos=array([0.9, 0.9]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+6.1477 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([ 1.    , -0.2235, -0.4431]), fillColorSpace='rgb', fillRGB=array([ 1.    , -0.2235, -0.4431]), interpolate=True, lineColor=array([ 1.    , -0.2235, -0.4431]), lineColorSpace='rgb', lineRGB=array([ 1.    , -0.2235, -0.4431]), lineWidth=1.0, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([25., 25.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+6.1483 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([0.8824, 0.8039, 0.098 ]), fillColorSpace='rgb', fillRGB=array([0.8824, 0.8039, 0.098 ]), interpolate=True, lineColor=array([0.8824, 0.8039, 0.098 ]), lineColorSpace='rgb', lineRGB=array([0.8824, 0.8039, 0.098 ]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+6.1857 	EXP 	Created img_inst4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='png/inst4.png', interpolate=True, mask=None, maskParams=None, name='img_inst4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1000.,  352.]), texRes=128.0, units='pix', win=Window(...))
+6.1864 	EXP 	Created text_shintyoku = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_shintyoku', opacity=1.0, ori=0.0, pos=array([0.9, 0.9]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+6.2043 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you.', units='height', win=Window(...), wrapWidth=1)
+6.2093 	EXP 	movie: autoLog = True
+6.2093 	EXP 	movie: movie = 'mp4/catch_demo.mp4'
+6.2093 	EXP 	movie: ori = 0.0
+6.2093 	EXP 	mov: autoLog = True
+6.2093 	EXP 	mov: movie = 'mp4/demo/taisoufuku_demo_120sec.mp4'
+6.2093 	EXP 	mov: ori = 0.0
+6.2093 	EXP 	img_inst1: autoDraw = True
+7.8939 	DATA 	Keypress: space
+7.9064 	EXP 	img_inst1: autoDraw = False
+7.9064 	EXP 	movie: autoDraw = True
+7.9064 	EXP 	fixation_2: autoDraw = True
+8.4091 	DATA 	Keypress: q
+8.4246 	EXP 	movie: autoDraw = False
+8.4246 	EXP 	fixation_2: autoDraw = False
+8.4246 	EXP 	img_inst2: autoDraw = True
+8.8255 	DATA 	Keypress: space
+8.8634 	EXP 	img_inst2: autoDraw = False
+8.8634 	EXP 	mov: autoDraw = True
+8.8634 	EXP 	polygon_6: autoDraw = True
+8.8634 	EXP 	mask_cw: autoDraw = True
+8.8634 	EXP 	mask_cw: texRes = 128.0
+8.8634 	EXP 	mask_ccw: autoDraw = True
+8.8634 	EXP 	mask_ccw: texRes = 128.0
+8.8953 	EXP 	mask_cw: texRes = 128.0
+8.8953 	EXP 	mask_ccw: texRes = 128.0
+8.9246 	EXP 	mask_cw: texRes = 128.0
+8.9246 	EXP 	mask_ccw: texRes = 128.0
+8.9535 	EXP 	mask_cw: texRes = 128.0
+8.9535 	EXP 	mask_ccw: texRes = 128.0
+8.9790 	EXP 	mask_cw: texRes = 128.0
+8.9790 	EXP 	mask_ccw: texRes = 128.0
+9.0019 	EXP 	mask_cw: texRes = 128.0
+9.0019 	EXP 	mask_ccw: texRes = 128.0
+9.0273 	EXP 	mask_cw: texRes = 128.0
+9.0273 	EXP 	mask_ccw: texRes = 128.0
+9.0528 	EXP 	mask_cw: texRes = 128.0
+9.0528 	EXP 	mask_ccw: texRes = 128.0
+9.0781 	EXP 	mask_cw: texRes = 128.0
+9.0781 	EXP 	mask_ccw: texRes = 128.0
+9.1006 	EXP 	mask_cw: texRes = 128.0
+9.1006 	EXP 	mask_ccw: texRes = 128.0
+9.1258 	EXP 	mask_cw: texRes = 128.0
+9.1258 	EXP 	mask_ccw: texRes = 128.0
+9.1511 	EXP 	mask_cw: texRes = 128.0
+9.1511 	EXP 	mask_ccw: texRes = 128.0
+9.1766 	EXP 	mask_cw: texRes = 128.0
+9.1766 	EXP 	mask_ccw: texRes = 128.0
+9.1991 	EXP 	mask_cw: texRes = 128.0
+9.1991 	EXP 	mask_ccw: texRes = 128.0
+9.2245 	EXP 	mask_cw: texRes = 128.0
+9.2245 	EXP 	mask_ccw: texRes = 128.0
+9.2420 	DATA 	Keypress: q
+9.2509 	EXP 	mask_cw: texRes = 128.0
+9.2509 	EXP 	mask_ccw: texRes = 128.0
+9.2727 	EXP 	mask_cw: texRes = 128.0
+9.2727 	EXP 	mask_ccw: texRes = 128.0
+9.2727 	EXP 	mov: autoDraw = False
+9.2727 	EXP 	polygon_6: autoDraw = False
+9.2727 	EXP 	mask_cw: autoDraw = False
+9.2727 	EXP 	mask_ccw: autoDraw = False
+9.2727 	EXP 	img_inst3: autoDraw = True
+9.7751 	DATA 	Keypress: space
+9.7847 	EXP 	Imported conditions_exp2512.xlsx as conditions, 3 conditions, 1 params
+9.7854 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=323
+9.7858 	EXP 	New trial (rep=0, index=0): {'movItems': 'mp4/dance_nonrigid.mp4'}
+9.7862 	EXP 	Created mov00 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='mp4/dance_nonrigid.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov00', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+9.9096 	WARNING 	0.12334179200115614: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+9.9097 	WARNING 	0.1234174589990289: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+9.9281 	EXP 	img_inst3: autoDraw = False
+9.9281 	EXP 	mov00: autoLog = True
+9.9281 	EXP 	mov00: movie = 'mp4/dance_nonrigid.mp4'
+9.9281 	EXP 	mov00: ori = 0.0
+9.9281 	EXP 	mov00: autoDraw = True
+9.9281 	EXP 	fixation: autoDraw = True
+10.7601 	DATA 	Keypress: q
+10.7763 	EXP 	mov00: autoDraw = False
+10.7763 	EXP 	fixation: autoDraw = False
+10.7763 	EXP 	text_shintyoku: height = 0.05
+10.7763 	EXP 	text_shintyoku: height = 0.05
+10.7763 	EXP 	text_shintyoku: height = 0.05
+10.7763 	EXP 	text_shintyoku: text = '1/6'
+10.7763 	EXP 	polygon: autoDraw = True
+10.7763 	EXP 	img_inst4: autoDraw = True
+10.7763 	EXP 	text_shintyoku: autoDraw = True
+15.9312 	DATA 	Keypress: q
+15.9326 	EXP 	New trial (rep=0, index=1): {'movItems': 'mp4/dance_rigid.mp4'}
+15.9333 	EXP 	Created mov00 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='mp4/dance_rigid.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov00', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+16.0609 	WARNING 	0.1274783330009086: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+16.0609 	WARNING 	0.1275883749985951: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+16.0816 	EXP 	polygon: autoDraw = False
+16.0816 	EXP 	img_inst4: autoDraw = False
+16.0816 	EXP 	text_shintyoku: autoDraw = False
+16.0816 	EXP 	mov00: autoLog = True
+16.0816 	EXP 	mov00: movie = 'mp4/dance_rigid.mp4'
+16.0816 	EXP 	mov00: ori = 0.0
+16.0816 	EXP 	mov00: autoDraw = True
+16.0816 	EXP 	fixation: autoDraw = True
+16.1406 	DATA 	Keypress: q
+16.1561 	EXP 	mov00: autoDraw = False
+16.1561 	EXP 	fixation: autoDraw = False
+16.1561 	EXP 	text_shintyoku: height = 0.05
+16.1561 	EXP 	text_shintyoku: height = 0.05
+16.1561 	EXP 	text_shintyoku: height = 0.05
+16.1561 	EXP 	text_shintyoku: text = '2/6'
+16.1561 	EXP 	polygon: autoDraw = True
+16.1561 	EXP 	img_inst4: autoDraw = True
+16.1561 	EXP 	text_shintyoku: autoDraw = True
+17.0588 	DATA 	Keypress: q
+17.0599 	EXP 	New trial (rep=0, index=2): {'movItems': 'mp4/dance_rigid_mask_shuffle.mp4'}
+17.0606 	EXP 	Created mov00 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='mp4/dance_rigid_mask_shuffle.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov00', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+17.1917 	WARNING 	0.13103958299325313: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+17.1918 	WARNING 	0.1311227499973029: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+17.2097 	EXP 	polygon: autoDraw = False
+17.2097 	EXP 	img_inst4: autoDraw = False
+17.2097 	EXP 	text_shintyoku: autoDraw = False
+17.2097 	EXP 	mov00: autoLog = True
+17.2097 	EXP 	mov00: movie = 'mp4/dance_rigid_mask_shuffle.mp4'
+17.2097 	EXP 	mov00: ori = 0.0
+17.2097 	EXP 	mov00: autoDraw = True
+17.2097 	EXP 	fixation: autoDraw = True
+18.2078 	DATA 	Keypress: q
+18.2232 	EXP 	mov00: autoDraw = False
+18.2232 	EXP 	fixation: autoDraw = False
+18.2232 	EXP 	text_shintyoku: height = 0.05
+18.2232 	EXP 	text_shintyoku: height = 0.05
+18.2232 	EXP 	text_shintyoku: height = 0.05
+18.2232 	EXP 	text_shintyoku: text = '3/6'
+18.2232 	EXP 	polygon: autoDraw = True
+18.2232 	EXP 	img_inst4: autoDraw = True
+18.2232 	EXP 	text_shintyoku: autoDraw = True
+19.1927 	DATA 	Keypress: q
+19.2046 	EXP 	Created mov_catch = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='mp4/catch.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov_catch', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+19.3129 	WARNING 	0.10821691699675284: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+19.3130 	WARNING 	0.10829758399631828: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+19.3311 	EXP 	polygon: autoDraw = False
+19.3311 	EXP 	img_inst4: autoDraw = False
+19.3311 	EXP 	text_shintyoku: autoDraw = False
+19.3311 	EXP 	mov_catch: autoLog = True
+19.3311 	EXP 	mov_catch: movie = 'mp4/catch.mp4'
+19.3311 	EXP 	mov_catch: ori = 0.0
+19.3311 	EXP 	mov_catch: autoDraw = True
+19.3311 	EXP 	fixation_catch: autoDraw = True
+76.0816 	DATA 	Keypress: f
+76.4430 	DATA 	Keypress: j
+76.7562 	DATA 	Keypress: f
+79.2102 	EXP 	mov_catch: autoDraw = False
+79.2102 	EXP 	fixation_catch: autoDraw = False
+79.2102 	EXP 	text_shintyoku: text = '3/6'
+79.2102 	EXP 	polygon: autoDraw = True
+79.2102 	EXP 	img_inst4: autoDraw = True
+79.2102 	EXP 	text_shintyoku: autoDraw = True
+80.6966 	DATA 	Keypress: q
+80.7083 	EXP 	Imported conditions_exp2512.xlsx as conditions, 3 conditions, 1 params
+80.7091 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=223
+80.7095 	EXP 	New trial (rep=0, index=0): {'movItems': 'mp4/dance_rigid_mask_shuffle.mp4'}
+80.7102 	EXP 	Created mov00 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='mp4/dance_rigid_mask_shuffle.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov00', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+80.8488 	WARNING 	0.13862241699825972: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+80.8489 	WARNING 	0.13870208300068043: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+80.8489 	WARNING 	0.13871374999871477: Video catchup needed, advancing self._nextFrameT from 0.06666666666666667 to 0.1
+80.8707 	EXP 	polygon: autoDraw = False
+80.8707 	EXP 	img_inst4: autoDraw = False
+80.8707 	EXP 	text_shintyoku: autoDraw = False
+80.8707 	EXP 	mov00: autoLog = True
+80.8707 	EXP 	mov00: movie = 'mp4/dance_rigid_mask_shuffle.mp4'
+80.8707 	EXP 	mov00: ori = 0.0
+80.8707 	EXP 	mov00: autoDraw = True
+80.8707 	EXP 	fixation: autoDraw = True
+81.5610 	DATA 	Keypress: q
+81.5627 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+81.5628 	EXP 	New trial (rep=0, index=0): None
+81.5713 	EXP 	mov00: autoDraw = False
+81.5713 	EXP 	fixation: autoDraw = False
+81.5713 	EXP 	text_shintyoku: height = 0.05
+81.5713 	EXP 	text_shintyoku: height = 0.05
+81.5713 	EXP 	text_shintyoku: height = 0.05
+81.5713 	EXP 	text_shintyoku: text = '4/6'
+81.5713 	EXP 	polygon: autoDraw = True
+81.5713 	EXP 	img_inst4: autoDraw = True
+81.5713 	EXP 	text_shintyoku: autoDraw = True
+82.1079 	DATA 	Keypress: q
+82.1168 	EXP 	New trial (rep=0, index=1): {'movItems': 'mp4/dance_rigid.mp4'}
+82.1175 	EXP 	Created mov00 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='mp4/dance_rigid.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov00', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+82.2459 	WARNING 	0.12838504200044554: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+82.2459 	WARNING 	0.12846416699903784: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+82.2637 	EXP 	polygon: autoDraw = False
+82.2637 	EXP 	img_inst4: autoDraw = False
+82.2637 	EXP 	text_shintyoku: autoDraw = False
+82.2637 	EXP 	mov00: autoLog = True
+82.2637 	EXP 	mov00: movie = 'mp4/dance_rigid.mp4'
+82.2637 	EXP 	mov00: ori = 0.0
+82.2637 	EXP 	mov00: autoDraw = True
+82.2637 	EXP 	fixation: autoDraw = True
+82.7621 	DATA 	Keypress: q
+82.7641 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+82.7643 	EXP 	New trial (rep=0, index=0): None
+82.7748 	EXP 	mov00: autoDraw = False
+82.7748 	EXP 	fixation: autoDraw = False
+82.7748 	EXP 	text_shintyoku: height = 0.05
+82.7748 	EXP 	text_shintyoku: height = 0.05
+82.7748 	EXP 	text_shintyoku: height = 0.05
+82.7748 	EXP 	text_shintyoku: text = '5/6'
+82.7748 	EXP 	polygon: autoDraw = True
+82.7748 	EXP 	img_inst4: autoDraw = True
+82.7748 	EXP 	text_shintyoku: autoDraw = True
+83.2739 	DATA 	Keypress: q
+83.2825 	EXP 	New trial (rep=0, index=2): {'movItems': 'mp4/dance_nonrigid.mp4'}
+83.2831 	EXP 	Created mov00 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='mp4/dance_nonrigid.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='mov00', noAudio=False, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+83.4193 	WARNING 	0.13610883300134446: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.03333333333333333
+83.4194 	WARNING 	0.13619137500063516: Video catchup needed, advancing self._nextFrameT from 0.03333333333333333 to 0.06666666666666667
+83.4194 	WARNING 	0.13620254099805607: Video catchup needed, advancing self._nextFrameT from 0.06666666666666667 to 0.1
+83.4461 	EXP 	polygon: autoDraw = False
+83.4461 	EXP 	img_inst4: autoDraw = False
+83.4461 	EXP 	text_shintyoku: autoDraw = False
+83.4461 	EXP 	mov00: autoLog = True
+83.4461 	EXP 	mov00: movie = 'mp4/dance_nonrigid.mp4'
+83.4461 	EXP 	mov00: ori = 0.0
+83.4461 	EXP 	mov00: autoDraw = True
+83.4461 	EXP 	fixation: autoDraw = True
+83.8989 	DATA 	Keypress: q
+83.9068 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+83.9198 	EXP 	mov00: autoDraw = False
+83.9198 	EXP 	fixation: autoDraw = False
+83.9198 	EXP 	text: autoDraw = True
+86.9075 	EXP 	text: autoDraw = False
+86.9075 	EXP 	text: autoDraw = False
+86.9386 	EXP 	window1: mouseVisible = True
