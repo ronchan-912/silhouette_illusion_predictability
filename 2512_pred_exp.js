@@ -159,6 +159,7 @@ var finish_judge_3;
 var fixation;
 var breaktClock;
 var key_resp_breaktime_2;
+var key_break_break;
 var polygon;
 var img_inst4;
 var text_shintyoku;
@@ -308,13 +309,15 @@ async function experimentInit() {
   breaktClock = new util.Clock();
   key_resp_breaktime_2 = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
   
+  key_break_break = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+  
   polygon = new visual.Rect ({
     win: psychoJS.window, name: 'polygon', units : 'pix', 
     width: [1.0, 1.0][0], height: [1.0, 1.0][1],
     ori: 0.0, pos: [0, 0],
     lineWidth: 1.0, lineColor: new util.Color([0.8824, 0.8039, 0.098]),
     fillColor: new util.Color([0.8824, 0.8039, 0.098]),
-    opacity: undefined, depth: -1, interpolate: true,
+    opacity: undefined, depth: -2, interpolate: true,
   });
   
   img_inst4 = new visual.ImageStim({
@@ -324,7 +327,7 @@ async function experimentInit() {
     ori : 0.0, pos : [0, 0], size : [1000, 352],
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -2.0 
+    texRes : 128.0, interpolate : true, depth : -3.0 
   });
   text_shintyoku = new visual.TextStim({
     win: psychoJS.window,
@@ -334,7 +337,7 @@ async function experimentInit() {
     units: 'norm', 
     pos: [0.9, 0.9], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     color: new util.Color('white'),  opacity: undefined,
-    depth: -3.0 
+    depth: -4.0 
   });
   
   // Initialize components for Routine "catch_trial"
@@ -1520,6 +1523,7 @@ function trialRoutineEnd() {
 
 
 var _key_resp_breaktime_2_allKeys;
+var _key_break_break_allKeys;
 var breaktComponents;
 function breaktRoutineBegin(snapshot) {
   return async function () {
@@ -1534,10 +1538,14 @@ function breaktRoutineBegin(snapshot) {
     key_resp_breaktime_2.keys = undefined;
     key_resp_breaktime_2.rt = undefined;
     _key_resp_breaktime_2_allKeys = [];
+    key_break_break.keys = undefined;
+    key_break_break.rt = undefined;
+    _key_break_break_allKeys = [];
     text_shintyoku.setText((strCounter + "/6"));
     // keep track of which components have finished
     breaktComponents = [];
     breaktComponents.push(key_resp_breaktime_2);
+    breaktComponents.push(key_break_break);
     breaktComponents.push(polygon);
     breaktComponents.push(img_inst4);
     breaktComponents.push(text_shintyoku);
@@ -1576,6 +1584,30 @@ function breaktRoutineEachFrame() {
       if (_key_resp_breaktime_2_allKeys.length > 0) {
         key_resp_breaktime_2.keys = _key_resp_breaktime_2_allKeys[_key_resp_breaktime_2_allKeys.length - 1].name;  // just the last key pressed
         key_resp_breaktime_2.rt = _key_resp_breaktime_2_allKeys[_key_resp_breaktime_2_allKeys.length - 1].rt;
+        // a response ends the routine
+        continueRoutine = false;
+      }
+    }
+    
+    
+    // *key_break_break* updates
+    if (t >= 0 && key_break_break.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      key_break_break.tStart = t;  // (not accounting for frame time here)
+      key_break_break.frameNStart = frameN;  // exact frame index
+      
+      // keyboard checking is just starting
+      psychoJS.window.callOnFlip(function() { key_break_break.clock.reset(); });  // t=0 on next screen flip
+      psychoJS.window.callOnFlip(function() { key_break_break.start(); }); // start on screen flip
+      psychoJS.window.callOnFlip(function() { key_break_break.clearEvents(); });
+    }
+
+    if (key_break_break.status === PsychoJS.Status.STARTED) {
+      let theseKeys = key_break_break.getKeys({keyList: ['q'], waitRelease: false});
+      _key_break_break_allKeys = _key_break_break_allKeys.concat(theseKeys);
+      if (_key_break_break_allKeys.length > 0) {
+        key_break_break.keys = _key_break_break_allKeys[_key_break_break_allKeys.length - 1].name;  // just the last key pressed
+        key_break_break.rt = _key_break_break_allKeys[_key_break_break_allKeys.length - 1].rt;
         // a response ends the routine
         continueRoutine = false;
       }
@@ -1666,6 +1698,17 @@ function breaktRoutineEnd() {
         }
     
     key_resp_breaktime_2.stop();
+    // update the trial handler
+    if (psychoJS.experiment.currentLoop instanceof MultiStairHandler) {
+      psychoJS.experiment.currentLoop.addResponse(key_break_break.corr, level);
+    }
+    psychoJS.experiment.addData('key_break_break.keys', key_break_break.keys);
+    if (typeof key_break_break.keys !== 'undefined') {  // we had a response
+        psychoJS.experiment.addData('key_break_break.rt', key_break_break.rt);
+        routineTimer.reset();
+        }
+    
+    key_break_break.stop();
     // the Routine "breakt" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
