@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.4),
-    on 月  1/ 5 17:39:46 2026
+    on 月  1/ 5 18:14:38 2026
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -203,7 +203,7 @@ fixation = visual.ShapeStim(
 # Initialize components for Routine "breakt"
 breaktClock = core.Clock()
 key_resp_breaktime_2 = keyboard.Keyboard()
-key_break_break = keyboard.Keyboard()
+finish_judge_4 = keyboard.Keyboard()
 polygon = visual.Rect(
     win=win, name='polygon',units='pix', 
     width=[1.0, 1.0][0], height=[1.0, 1.0][1],
@@ -239,7 +239,7 @@ fixation_catch = visual.ShapeStim(
 # Initialize components for Routine "breakt"
 breaktClock = core.Clock()
 key_resp_breaktime_2 = keyboard.Keyboard()
-key_break_break = keyboard.Keyboard()
+finish_judge_4 = keyboard.Keyboard()
 polygon = visual.Rect(
     win=win, name='polygon',units='pix', 
     width=[1.0, 1.0][0], height=[1.0, 1.0][1],
@@ -279,7 +279,7 @@ fixation = visual.ShapeStim(
 # Initialize components for Routine "breakt"
 breaktClock = core.Clock()
 key_resp_breaktime_2 = keyboard.Keyboard()
-key_break_break = keyboard.Keyboard()
+finish_judge_4 = keyboard.Keyboard()
 polygon = visual.Rect(
     win=win, name='polygon',units='pix', 
     width=[1.0, 1.0][0], height=[1.0, 1.0][1],
@@ -992,7 +992,7 @@ routineTimer.reset()
 trials_2 = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=data.importConditions('conditions_exp2512.xlsx'),
-    seed=10, name='trials_2')
+    seed=sum([ord(c) for c in expInfo['participant']]) + 100, name='trials_2')
 thisExp.addLoop(trials_2)  # add the loop to the experiment
 thisTrial_2 = trials_2.trialList[0]  # so we can initialise stimuli with some values
 # abbreviate parameter names if possible (e.g. rgb = thisTrial_2.rgb)
@@ -1195,12 +1195,12 @@ for thisTrial_2 in trials_2:
     key_resp_breaktime_2.keys = []
     key_resp_breaktime_2.rt = []
     _key_resp_breaktime_2_allKeys = []
-    key_break_break.keys = []
-    key_break_break.rt = []
-    _key_break_break_allKeys = []
+    finish_judge_4.keys = []
+    finish_judge_4.rt = []
+    _finish_judge_4_allKeys = []
     text_shintyoku.setText(strCounter + '/6')
     # keep track of which components have finished
-    breaktComponents = [key_resp_breaktime_2, key_break_break, polygon, img_inst4, text_shintyoku]
+    breaktComponents = [key_resp_breaktime_2, finish_judge_4, polygon, img_inst4, text_shintyoku]
     for thisComponent in breaktComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -1245,25 +1245,32 @@ for thisTrial_2 in trials_2:
                 # a response ends the routine
                 continueRoutine = False
         
-        # *key_break_break* updates
+        # *finish_judge_4* updates
         waitOnFlip = False
-        if key_break_break.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+        if finish_judge_4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
-            key_break_break.frameNStart = frameN  # exact frame index
-            key_break_break.tStart = t  # local t and not account for scr refresh
-            key_break_break.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(key_break_break, 'tStartRefresh')  # time at next scr refresh
-            key_break_break.status = STARTED
+            finish_judge_4.frameNStart = frameN  # exact frame index
+            finish_judge_4.tStart = t  # local t and not account for scr refresh
+            finish_judge_4.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(finish_judge_4, 'tStartRefresh')  # time at next scr refresh
+            finish_judge_4.status = STARTED
             # keyboard checking is just starting
             waitOnFlip = True
-            win.callOnFlip(key_break_break.clock.reset)  # t=0 on next screen flip
-            win.callOnFlip(key_break_break.clearEvents, eventType='keyboard')  # clear events on next screen flip
-        if key_break_break.status == STARTED and not waitOnFlip:
-            theseKeys = key_break_break.getKeys(keyList=['q'], waitRelease=False)
-            _key_break_break_allKeys.extend(theseKeys)
-            if len(_key_break_break_allKeys):
-                key_break_break.keys = _key_break_break_allKeys[-1].name  # just the last key pressed
-                key_break_break.rt = _key_break_break_allKeys[-1].rt
+            win.callOnFlip(finish_judge_4.clock.reset)  # t=0 on next screen flip
+        if finish_judge_4.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > finish_judge_4.tStartRefresh + 120-frameTolerance:
+                # keep track of stop time/frame for later
+                finish_judge_4.tStop = t  # not accounting for scr refresh
+                finish_judge_4.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(finish_judge_4, 'tStopRefresh')  # time at next scr refresh
+                finish_judge_4.status = FINISHED
+        if finish_judge_4.status == STARTED and not waitOnFlip:
+            theseKeys = finish_judge_4.getKeys(keyList=['q'], waitRelease=False)
+            _finish_judge_4_allKeys.extend(theseKeys)
+            if len(_finish_judge_4_allKeys):
+                finish_judge_4.keys = _finish_judge_4_allKeys[-1].name  # just the last key pressed
+                finish_judge_4.rt = _finish_judge_4_allKeys[-1].rt
                 # a response ends the routine
                 continueRoutine = False
         
@@ -1335,13 +1342,11 @@ for thisTrial_2 in trials_2:
     trials_2.addData('key_resp_breaktime_2.started', key_resp_breaktime_2.tStartRefresh)
     trials_2.addData('key_resp_breaktime_2.stopped', key_resp_breaktime_2.tStopRefresh)
     # check responses
-    if key_break_break.keys in ['', [], None]:  # No response was made
-        key_break_break.keys = None
-    trials_2.addData('key_break_break.keys',key_break_break.keys)
-    if key_break_break.keys != None:  # we had a response
-        trials_2.addData('key_break_break.rt', key_break_break.rt)
-    trials_2.addData('key_break_break.started', key_break_break.tStartRefresh)
-    trials_2.addData('key_break_break.stopped', key_break_break.tStopRefresh)
+    if finish_judge_4.keys in ['', [], None]:  # No response was made
+        finish_judge_4.keys = None
+    trials_2.addData('finish_judge_4.keys',finish_judge_4.keys)
+    if finish_judge_4.keys != None:  # we had a response
+        trials_2.addData('finish_judge_4.rt', finish_judge_4.rt)
     # the Routine "breakt" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     thisExp.nextEntry()
@@ -1498,12 +1503,12 @@ continueRoutine = True
 key_resp_breaktime_2.keys = []
 key_resp_breaktime_2.rt = []
 _key_resp_breaktime_2_allKeys = []
-key_break_break.keys = []
-key_break_break.rt = []
-_key_break_break_allKeys = []
+finish_judge_4.keys = []
+finish_judge_4.rt = []
+_finish_judge_4_allKeys = []
 text_shintyoku.setText(strCounter + '/6')
 # keep track of which components have finished
-breaktComponents = [key_resp_breaktime_2, key_break_break, polygon, img_inst4, text_shintyoku]
+breaktComponents = [key_resp_breaktime_2, finish_judge_4, polygon, img_inst4, text_shintyoku]
 for thisComponent in breaktComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -1548,25 +1553,32 @@ while continueRoutine:
             # a response ends the routine
             continueRoutine = False
     
-    # *key_break_break* updates
+    # *finish_judge_4* updates
     waitOnFlip = False
-    if key_break_break.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+    if finish_judge_4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
-        key_break_break.frameNStart = frameN  # exact frame index
-        key_break_break.tStart = t  # local t and not account for scr refresh
-        key_break_break.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(key_break_break, 'tStartRefresh')  # time at next scr refresh
-        key_break_break.status = STARTED
+        finish_judge_4.frameNStart = frameN  # exact frame index
+        finish_judge_4.tStart = t  # local t and not account for scr refresh
+        finish_judge_4.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(finish_judge_4, 'tStartRefresh')  # time at next scr refresh
+        finish_judge_4.status = STARTED
         # keyboard checking is just starting
         waitOnFlip = True
-        win.callOnFlip(key_break_break.clock.reset)  # t=0 on next screen flip
-        win.callOnFlip(key_break_break.clearEvents, eventType='keyboard')  # clear events on next screen flip
-    if key_break_break.status == STARTED and not waitOnFlip:
-        theseKeys = key_break_break.getKeys(keyList=['q'], waitRelease=False)
-        _key_break_break_allKeys.extend(theseKeys)
-        if len(_key_break_break_allKeys):
-            key_break_break.keys = _key_break_break_allKeys[-1].name  # just the last key pressed
-            key_break_break.rt = _key_break_break_allKeys[-1].rt
+        win.callOnFlip(finish_judge_4.clock.reset)  # t=0 on next screen flip
+    if finish_judge_4.status == STARTED:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > finish_judge_4.tStartRefresh + 120-frameTolerance:
+            # keep track of stop time/frame for later
+            finish_judge_4.tStop = t  # not accounting for scr refresh
+            finish_judge_4.frameNStop = frameN  # exact frame index
+            win.timeOnFlip(finish_judge_4, 'tStopRefresh')  # time at next scr refresh
+            finish_judge_4.status = FINISHED
+    if finish_judge_4.status == STARTED and not waitOnFlip:
+        theseKeys = finish_judge_4.getKeys(keyList=['q'], waitRelease=False)
+        _finish_judge_4_allKeys.extend(theseKeys)
+        if len(_finish_judge_4_allKeys):
+            finish_judge_4.keys = _finish_judge_4_allKeys[-1].name  # just the last key pressed
+            finish_judge_4.rt = _finish_judge_4_allKeys[-1].rt
             # a response ends the routine
             continueRoutine = False
     
@@ -1639,13 +1651,11 @@ thisExp.addData('key_resp_breaktime_2.started', key_resp_breaktime_2.tStartRefre
 thisExp.addData('key_resp_breaktime_2.stopped', key_resp_breaktime_2.tStopRefresh)
 thisExp.nextEntry()
 # check responses
-if key_break_break.keys in ['', [], None]:  # No response was made
-    key_break_break.keys = None
-thisExp.addData('key_break_break.keys',key_break_break.keys)
-if key_break_break.keys != None:  # we had a response
-    thisExp.addData('key_break_break.rt', key_break_break.rt)
-thisExp.addData('key_break_break.started', key_break_break.tStartRefresh)
-thisExp.addData('key_break_break.stopped', key_break_break.tStopRefresh)
+if finish_judge_4.keys in ['', [], None]:  # No response was made
+    finish_judge_4.keys = None
+thisExp.addData('finish_judge_4.keys',finish_judge_4.keys)
+if finish_judge_4.keys != None:  # we had a response
+    thisExp.addData('finish_judge_4.rt', finish_judge_4.rt)
 thisExp.nextEntry()
 # the Routine "breakt" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
@@ -1654,7 +1664,7 @@ routineTimer.reset()
 trials = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=data.importConditions('conditions_exp2512.xlsx'),
-    seed=80, name='trials')
+    seed=sum([ord(c) for c in expInfo['participant']]), name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
 # abbreviate parameter names if possible (e.g. rgb = thisTrial.rgb)
@@ -1876,12 +1886,12 @@ for thisTrial in trials:
         key_resp_breaktime_2.keys = []
         key_resp_breaktime_2.rt = []
         _key_resp_breaktime_2_allKeys = []
-        key_break_break.keys = []
-        key_break_break.rt = []
-        _key_break_break_allKeys = []
+        finish_judge_4.keys = []
+        finish_judge_4.rt = []
+        _finish_judge_4_allKeys = []
         text_shintyoku.setText(strCounter + '/6')
         # keep track of which components have finished
-        breaktComponents = [key_resp_breaktime_2, key_break_break, polygon, img_inst4, text_shintyoku]
+        breaktComponents = [key_resp_breaktime_2, finish_judge_4, polygon, img_inst4, text_shintyoku]
         for thisComponent in breaktComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -1926,25 +1936,32 @@ for thisTrial in trials:
                     # a response ends the routine
                     continueRoutine = False
             
-            # *key_break_break* updates
+            # *finish_judge_4* updates
             waitOnFlip = False
-            if key_break_break.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+            if finish_judge_4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
-                key_break_break.frameNStart = frameN  # exact frame index
-                key_break_break.tStart = t  # local t and not account for scr refresh
-                key_break_break.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(key_break_break, 'tStartRefresh')  # time at next scr refresh
-                key_break_break.status = STARTED
+                finish_judge_4.frameNStart = frameN  # exact frame index
+                finish_judge_4.tStart = t  # local t and not account for scr refresh
+                finish_judge_4.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(finish_judge_4, 'tStartRefresh')  # time at next scr refresh
+                finish_judge_4.status = STARTED
                 # keyboard checking is just starting
                 waitOnFlip = True
-                win.callOnFlip(key_break_break.clock.reset)  # t=0 on next screen flip
-                win.callOnFlip(key_break_break.clearEvents, eventType='keyboard')  # clear events on next screen flip
-            if key_break_break.status == STARTED and not waitOnFlip:
-                theseKeys = key_break_break.getKeys(keyList=['q'], waitRelease=False)
-                _key_break_break_allKeys.extend(theseKeys)
-                if len(_key_break_break_allKeys):
-                    key_break_break.keys = _key_break_break_allKeys[-1].name  # just the last key pressed
-                    key_break_break.rt = _key_break_break_allKeys[-1].rt
+                win.callOnFlip(finish_judge_4.clock.reset)  # t=0 on next screen flip
+            if finish_judge_4.status == STARTED:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > finish_judge_4.tStartRefresh + 120-frameTolerance:
+                    # keep track of stop time/frame for later
+                    finish_judge_4.tStop = t  # not accounting for scr refresh
+                    finish_judge_4.frameNStop = frameN  # exact frame index
+                    win.timeOnFlip(finish_judge_4, 'tStopRefresh')  # time at next scr refresh
+                    finish_judge_4.status = FINISHED
+            if finish_judge_4.status == STARTED and not waitOnFlip:
+                theseKeys = finish_judge_4.getKeys(keyList=['q'], waitRelease=False)
+                _finish_judge_4_allKeys.extend(theseKeys)
+                if len(_finish_judge_4_allKeys):
+                    finish_judge_4.keys = _finish_judge_4_allKeys[-1].name  # just the last key pressed
+                    finish_judge_4.rt = _finish_judge_4_allKeys[-1].rt
                     # a response ends the routine
                     continueRoutine = False
             
@@ -2016,13 +2033,11 @@ for thisTrial in trials:
         restOrNot.addData('key_resp_breaktime_2.started', key_resp_breaktime_2.tStartRefresh)
         restOrNot.addData('key_resp_breaktime_2.stopped', key_resp_breaktime_2.tStopRefresh)
         # check responses
-        if key_break_break.keys in ['', [], None]:  # No response was made
-            key_break_break.keys = None
-        restOrNot.addData('key_break_break.keys',key_break_break.keys)
-        if key_break_break.keys != None:  # we had a response
-            restOrNot.addData('key_break_break.rt', key_break_break.rt)
-        restOrNot.addData('key_break_break.started', key_break_break.tStartRefresh)
-        restOrNot.addData('key_break_break.stopped', key_break_break.tStopRefresh)
+        if finish_judge_4.keys in ['', [], None]:  # No response was made
+            finish_judge_4.keys = None
+        restOrNot.addData('finish_judge_4.keys',finish_judge_4.keys)
+        if finish_judge_4.keys != None:  # we had a response
+            restOrNot.addData('finish_judge_4.rt', finish_judge_4.rt)
         # the Routine "breakt" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
         thisExp.nextEntry()
