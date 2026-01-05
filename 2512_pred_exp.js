@@ -208,7 +208,7 @@ async function experimentInit() {
     ori: 0.0, pos: [0, 0],
     lineWidth: 1.0, lineColor: new util.Color([1.0, (- 0.2235), (- 0.4431)]),
     fillColor: new util.Color([1.0, (- 0.2235), (- 0.4431)]),
-    opacity: undefined, depth: -4, interpolate: true,
+    opacity: undefined, depth: -3, interpolate: true,
   });
   
   // Initialize components for Routine "introduction2"
@@ -270,7 +270,7 @@ async function experimentInit() {
     ori : 0.0, pos : [480, 0], size : [480, 800],
     color : new util.Color([1,1,1]), opacity : 1.0,
     flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -10.0 
+    texRes : 128.0, interpolate : true, depth : -7.0 
   });
   // Initialize components for Routine "introduction3"
   introduction3Clock = new util.Clock();
