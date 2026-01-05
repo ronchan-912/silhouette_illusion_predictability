@@ -1080,23 +1080,6 @@
         <Param val="128" valType="num" updates="constant" name="texture resolution"/>
         <Param val="pix" valType="str" updates="None" name="units"/>
       </ImageComponent>
-      <CodeComponent name="make_seed">
-        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="seedBase = 0" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="seedBase = 0;&amp;#10;const s = (expInfo['participant'] || '').toString();&amp;#10;for (let i = 0; i &lt; s.length; i++) {&amp;#10;  seedBase = (seedBase * 31 + s.charCodeAt(i)) &gt;&gt;&gt; 0;&amp;#10;}" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
-        <Param val="Both" valType="str" updates="None" name="Code Type"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="make_seed" valType="code" updates="None" name="name"/>
-      </CodeComponent>
     </Routine>
     <Routine name="introduction3">
       <TextboxComponent name="textbox_9">
@@ -1316,7 +1299,7 @@
       <Param name="loopType" updates="None" val="random" valType="str"/>
       <Param name="nReps" updates="None" val="1" valType="num"/>
       <Param name="name" updates="None" val="trials_2" valType="code"/>
-      <Param name="random seed" updates="None" val="seedBase + 100" valType="code"/>
+      <Param name="random seed" updates="None" val="sum([ord(c) for c in expInfo['participant']]) + 100" valType="code"/>
     </LoopInitiator>
     <Routine name="trial"/>
     <Routine name="breakt"/>
@@ -1332,7 +1315,7 @@
       <Param name="loopType" updates="None" val="random" valType="str"/>
       <Param name="nReps" updates="None" val="1" valType="num"/>
       <Param name="name" updates="None" val="trials" valType="code"/>
-      <Param name="random seed" updates="None" val="seedBase + 10" valType="code"/>
+      <Param name="random seed" updates="None" val="sum([ord(c) for c in expInfo['participant']])" valType="code"/>
     </LoopInitiator>
     <Routine name="trial"/>
     <LoopInitiator loopType="TrialHandler" name="restOrNot">

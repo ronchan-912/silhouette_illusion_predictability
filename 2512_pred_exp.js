@@ -102,8 +102,6 @@ psychoJS.start({
 
 psychoJS.experimentLogger.setLevel(core.Logger.ServerLevel.EXP);
 
-
-var frameDur;
 async function updateInfo() {
   expInfo['date'] = util.MonotonicClock.getDateStr();  // add a simple timestamp
   expInfo['expName'] = expName;
@@ -125,52 +123,6 @@ async function updateInfo() {
   return Scheduler.Event.NEXT;
 }
 
-
-var introduction1Clock;
-var key_resp_instruction_2;
-var img_inst1;
-var seedBase;
-var mihonClock;
-var movieClock;
-var movie;
-var key_resp_mihon;
-var finish_judge_2;
-var fixation_2;
-var introduction2Clock;
-var key_resp_instruction;
-var img_inst2;
-var demoClock;
-var finish_judge;
-var key_resp_demo;
-var key_resp_selection;
-var movClock;
-var mov;
-var polygon_6;
-var mask_cw;
-var mask_ccw;
-var introduction3Clock;
-var img_inst3;
-var key_resp_instruction_3;
-var trialClock;
-var key_resp;
-var trialCounter;
-var strCounter;
-var nRestTrial;
-var finish_judge_3;
-var fixation;
-var breaktClock;
-var key_resp_breaktime_2;
-var finish_judge_4;
-var polygon;
-var img_inst4;
-var text_shintyoku;
-var catch_trialClock;
-var key_resp_catch;
-var fixation_catch;
-var outroClock;
-var text;
-var globalClock;
-var routineTimer;
 async function experimentInit() {
   // Initialize components for Routine "introduction1"
   introduction1Clock = new util.Clock();
@@ -185,11 +137,6 @@ async function experimentInit() {
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -1.0 
   });
-  seedBase = 0;
-  const s = (expInfo['participant'] || '').toString();
-  for (let i = 0; i < s.length; i++) {
-    seedBase = (seedBase * 31 + s.charCodeAt(i)) >>> 0;
-  }
   // Initialize components for Routine "mihon"
   mihonClock = new util.Clock();
   movieClock = new util.Clock();
@@ -379,12 +326,6 @@ async function experimentInit() {
   return Scheduler.Event.NEXT;
 }
 
-
-var t;
-var frameN;
-var continueRoutine;
-var _key_resp_instruction_2_allKeys;
-var introduction1Components;
 function introduction1RoutineBegin(snapshot) {
   return async function () {
     TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
@@ -409,7 +350,6 @@ function introduction1RoutineBegin(snapshot) {
     return Scheduler.Event.NEXT;
   }
 }
-
 
 function introduction1RoutineEachFrame() {
   return async function () {
@@ -478,7 +418,6 @@ function introduction1RoutineEachFrame() {
   };
 }
 
-
 function introduction1RoutineEnd() {
   return async function () {
     //------Ending Routine 'introduction1'-------
@@ -495,10 +434,6 @@ function introduction1RoutineEnd() {
   };
 }
 
-
-var _key_resp_mihon_allKeys;
-var _finish_judge_2_allKeys;
-var mihonComponents;
 function mihonRoutineBegin(snapshot) {
   return async function () {
     TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
@@ -530,8 +465,6 @@ function mihonRoutineBegin(snapshot) {
   }
 }
 
-
-var frameRemains;
 function mihonRoutineEachFrame() {
   return async function () {
     //------Loop for each frame of Routine 'mihon'-------
@@ -650,7 +583,6 @@ function mihonRoutineEachFrame() {
   };
 }
 
-
 function mihonRoutineEnd() {
   return async function () {
     //------Ending Routine 'mihon'-------
@@ -685,9 +617,6 @@ function mihonRoutineEnd() {
   };
 }
 
-
-var _key_resp_instruction_allKeys;
-var introduction2Components;
 function introduction2RoutineBegin(snapshot) {
   return async function () {
     TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
@@ -712,7 +641,6 @@ function introduction2RoutineBegin(snapshot) {
     return Scheduler.Event.NEXT;
   }
 }
-
 
 function introduction2RoutineEachFrame() {
   return async function () {
@@ -781,7 +709,6 @@ function introduction2RoutineEachFrame() {
   };
 }
 
-
 function introduction2RoutineEnd() {
   return async function () {
     //------Ending Routine 'introduction2'-------
@@ -798,11 +725,6 @@ function introduction2RoutineEnd() {
   };
 }
 
-
-var _finish_judge_allKeys;
-var _key_resp_demo_allKeys;
-var _key_resp_selection_allKeys;
-var demoComponents;
 function demoRoutineBegin(snapshot) {
   return async function () {
     TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
@@ -840,10 +762,6 @@ function demoRoutineBegin(snapshot) {
   }
 }
 
-
-var val;
-var opa_cw;
-var opa_ccw;
 function demoRoutineEachFrame() {
   return async function () {
     //------Loop for each frame of Routine 'demo'-------
@@ -1042,7 +960,6 @@ function demoRoutineEachFrame() {
   };
 }
 
-
 function demoRoutineEnd() {
   return async function () {
     //------Ending Routine 'demo'-------
@@ -1078,9 +995,6 @@ function demoRoutineEnd() {
   };
 }
 
-
-var _key_resp_instruction_3_allKeys;
-var introduction3Components;
 function introduction3RoutineBegin(snapshot) {
   return async function () {
     TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
@@ -1105,7 +1019,6 @@ function introduction3RoutineBegin(snapshot) {
     return Scheduler.Event.NEXT;
   }
 }
-
 
 function introduction3RoutineEachFrame() {
   return async function () {
@@ -1174,7 +1087,6 @@ function introduction3RoutineEachFrame() {
   };
 }
 
-
 function introduction3RoutineEnd() {
   return async function () {
     //------Ending Routine 'introduction3'-------
@@ -1191,9 +1103,6 @@ function introduction3RoutineEnd() {
   };
 }
 
-
-var trials_2;
-var currentLoop;
 function trials_2LoopBegin(trials_2LoopScheduler, snapshot) {
   return async function() {
     TrialHandler.fromSnapshot(snapshot); // update internal variables (.thisN etc) of the loop
@@ -1204,7 +1113,7 @@ function trials_2LoopBegin(trials_2LoopScheduler, snapshot) {
       nReps: 1, method: TrialHandler.Method.RANDOM,
       extraInfo: expInfo, originPath: undefined,
       trialList: 'conditions_exp2512.xlsx',
-      seed: seedBase + 100, name: 'trials_2'
+      seed: sum([ord(c) for c in expInfo['participant']]) + 100, name: 'trials_2'
     });
     psychoJS.experiment.addLoop(trials_2); // add the loop to the experiment
     currentLoop = trials_2;  // we're now the current loop
@@ -1226,15 +1135,12 @@ function trials_2LoopBegin(trials_2LoopScheduler, snapshot) {
   }
 }
 
-
 async function trials_2LoopEnd() {
   psychoJS.experiment.removeLoop(trials_2);
 
   return Scheduler.Event.NEXT;
 }
 
-
-var trials;
 function trialsLoopBegin(trialsLoopScheduler, snapshot) {
   return async function() {
     TrialHandler.fromSnapshot(snapshot); // update internal variables (.thisN etc) of the loop
@@ -1245,7 +1151,7 @@ function trialsLoopBegin(trialsLoopScheduler, snapshot) {
       nReps: 1, method: TrialHandler.Method.RANDOM,
       extraInfo: expInfo, originPath: undefined,
       trialList: 'conditions_exp2512.xlsx',
-      seed: seedBase + 10, name: 'trials'
+      seed: sum([ord(c) for c in expInfo['participant']]), name: 'trials'
     });
     psychoJS.experiment.addLoop(trials); // add the loop to the experiment
     currentLoop = trials;  // we're now the current loop
@@ -1268,8 +1174,6 @@ function trialsLoopBegin(trialsLoopScheduler, snapshot) {
   }
 }
 
-
-var restOrNot;
 function restOrNotLoopBegin(restOrNotLoopScheduler, snapshot) {
   return async function() {
     TrialHandler.fromSnapshot(snapshot); // update internal variables (.thisN etc) of the loop
@@ -1299,13 +1203,11 @@ function restOrNotLoopBegin(restOrNotLoopScheduler, snapshot) {
   }
 }
 
-
 async function restOrNotLoopEnd() {
   psychoJS.experiment.removeLoop(restOrNot);
 
   return Scheduler.Event.NEXT;
 }
-
 
 async function trialsLoopEnd() {
   psychoJS.experiment.removeLoop(trials);
@@ -1313,13 +1215,6 @@ async function trialsLoopEnd() {
   return Scheduler.Event.NEXT;
 }
 
-
-var _key_resp_allKeys;
-var mov00Clock;
-var mov00;
-var isRest;
-var _finish_judge_3_allKeys;
-var trialComponents;
 function trialRoutineBegin(snapshot) {
   return async function () {
     TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
@@ -1370,7 +1265,6 @@ function trialRoutineBegin(snapshot) {
     return Scheduler.Event.NEXT;
   }
 }
-
 
 function trialRoutineEachFrame() {
   return async function () {
@@ -1490,7 +1384,6 @@ function trialRoutineEachFrame() {
   };
 }
 
-
 function trialRoutineEnd() {
   return async function () {
     //------Ending Routine 'trial'-------
@@ -1527,10 +1420,6 @@ function trialRoutineEnd() {
   };
 }
 
-
-var _key_resp_breaktime_2_allKeys;
-var _finish_judge_4_allKeys;
-var breaktComponents;
 function breaktRoutineBegin(snapshot) {
   return async function () {
     TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
@@ -1562,7 +1451,6 @@ function breaktRoutineBegin(snapshot) {
     return Scheduler.Event.NEXT;
   }
 }
-
 
 function breaktRoutineEachFrame() {
   return async function () {
@@ -1688,7 +1576,6 @@ function breaktRoutineEachFrame() {
   };
 }
 
-
 function breaktRoutineEnd() {
   return async function () {
     //------Ending Routine 'breakt'-------
@@ -1726,11 +1613,6 @@ function breaktRoutineEnd() {
   };
 }
 
-
-var _key_resp_catch_allKeys;
-var mov_catchClock;
-var mov_catch;
-var catch_trialComponents;
 function catch_trialRoutineBegin(snapshot) {
   return async function () {
     TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
@@ -1770,7 +1652,6 @@ function catch_trialRoutineBegin(snapshot) {
     return Scheduler.Event.NEXT;
   }
 }
-
 
 function catch_trialRoutineEachFrame() {
   return async function () {
@@ -1862,7 +1743,6 @@ function catch_trialRoutineEachFrame() {
   };
 }
 
-
 function catch_trialRoutineEnd() {
   return async function () {
     //------Ending Routine 'catch_trial'-------
@@ -1886,8 +1766,6 @@ function catch_trialRoutineEnd() {
   };
 }
 
-
-var outroComponents;
 function outroRoutineBegin(snapshot) {
   return async function () {
     TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
@@ -1909,7 +1787,6 @@ function outroRoutineBegin(snapshot) {
     return Scheduler.Event.NEXT;
   }
 }
-
 
 function outroRoutineEachFrame() {
   return async function () {
@@ -1958,7 +1835,6 @@ function outroRoutineEachFrame() {
   };
 }
 
-
 function outroRoutineEnd() {
   return async function () {
     //------Ending Routine 'outro'-------
@@ -1970,7 +1846,6 @@ function outroRoutineEnd() {
     return Scheduler.Event.NEXT;
   };
 }
-
 
 function endLoopIteration(scheduler, snapshot) {
   // ------Prepare for next entry------
@@ -1994,7 +1869,6 @@ function endLoopIteration(scheduler, snapshot) {
   };
 }
 
-
 function importConditions(currentLoop) {
   return async function () {
     psychoJS.importAttributes(currentLoop.getCurrentTrial());
@@ -2002,14 +1876,11 @@ function importConditions(currentLoop) {
     };
 }
 
-
 async function quitPsychoJS(message, isCompleted) {
   // Check for and save orphaned data
   if (psychoJS.experiment.isEntryEmpty()) {
     psychoJS.experiment.nextEntry();
   }
-  
-  
   
   
   
